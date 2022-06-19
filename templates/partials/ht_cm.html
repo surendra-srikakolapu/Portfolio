@@ -1,0 +1,15 @@
+<form hx-post="{% url 'ht_cm' %}" hx-target="this" hx-swap="outerHTML" class="ui form ht_cm-form">
+    <div class="row">
+        <div class="col-12 text-center mt-4">
+           <h2>Height - Cm's</h2><br>
+        </div>
+     </div>
+    <div class="field">
+        <input type="number" name="height_in_feet"  class="form-control" placeholder="ex:5(feet) " required>
+    </div>
+    <div class="field">
+        <input type="number" name="height_in_inches" class="form-control" placeholder="ex:4(inches)" >
+    </div>
+    <button style="border-radius:10px;top:10px;position: relative;width:90%;left: 5%;" class=" button btn btn-primary form-control" type="submit">Get Calendar</button>
+    {{result_in_cms}}
+</form>
