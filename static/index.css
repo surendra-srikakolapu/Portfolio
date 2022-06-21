@@ -667,6 +667,7 @@
         font-size: 15px;
         letter-spacing: 1px;
         font-family: 'Potta One', cursive;
+        margin-top: 5%;
     }
     
     .skills .card .label-bg{
@@ -681,7 +682,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 5%;
     }
 
 }
