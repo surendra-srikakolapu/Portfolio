@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Averia+Serif+Libre:wght@700&display=swap');
 
 .btn-rounded {
     position: relative;
@@ -450,12 +449,11 @@
 @media (min-width: 366px) and (max-width: 765px) {
 
     .skills{
-        min-height: 100vh;
-        background-color: #000000;
-        background-image:
-         radial-gradient(at 47% 33%, hsl(49.09, 14.000000000000002%, 15%) 0, transparent 59%),
-         radial-gradient(at 82% 65%, hsl(221.05, 5%, 51%) 0, transparent 55%);
-        
+        background-color:rgb(57, 61, 66) ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
     .skills .heading{
@@ -467,58 +465,57 @@
         color: white;
     }
 
-    .skills .back-logo-pc{
-        display: none;
-    }
+    
+.skills .card{
+    width: 160px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    display:flex;
+    align-items: center;
+    padding-top:20px ;
+    
+}
 
-    .skills .back-logo-mobile{
-        margin-top: 12%;
-        
-    }
+.skills .card .logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 7px rgb(153, 152, 152),
+    -1px -1px 7px rgb(168, 157, 157);
+    padding: 5px;
+}
 
-    .skills .back-logo-mobile-fe{
-        margin-top: 12%;
-    }
+.skills .card .logo img{
+    width: 70%;
+}
 
-    .skills .back-logo-mobile .card{
-        width: 100%;
-        height: 100%;
-        color: rgb(0, 0, 0);
-        margin-left:8px;
-        
-           
-    }
+.skills .card label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Potta One', cursive;
 
-    .skills .back-logo-mobile .card .card-title{
-        font-size: 15px;
-    }
+}
 
-    .skills .back-logo-mobile .card img{
-        width:70%;
-        height:70%;
-        margin-left: 16%;
-    }
-
-
-    .skills .back-logo-mobile-fe .card{
-        width: 90%;
-        height: 90%;
-        margin-left: 5px;
-        color: rgb(0, 0, 0);
-        
-           
-    }
-
-    .skills .back-logo-mobile-fe .card .card-title{
-        font-size: 15px;
-    }
-
-    .skills .back-logo-mobile-fe .card img{
-        width:70%;
-        height:70%;
-        margin-left: 16%;
-    }
-   
+.skills .card .label-bg{
+    margin-top: 40px;
+    color: rgb(244, 244, 244);
+    width:80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(57, 61, 66);
+    box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
+    -1px -1px 7px rgb(34, 31, 31) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     
 
 }
@@ -527,11 +524,11 @@
 
 @media (min-width: 766px) and (max-width: 980px) {
     .skills{
-        min-height: 60vh;
-        background-color: #060608;
-     background-image:
-         radial-gradient(at 47% 33%, hsl(49.09, 14.000000000000002%, 15%) 0, transparent 59%),
-         radial-gradient(at 82% 65%, hsl(221.05, 5%, 51%) 0, transparent 55%);
+        background-color:rgb(57, 61, 66) ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
         
     }
 
@@ -551,55 +548,57 @@
         font-size: 30px;
     }
 
-    .skills .back-logo-mobile{
-        margin-top: 10%;
-    }
-
-    .skills .back-logo-mobile-fe{
-        margin-top: 10%;
-    }
-
-    .skills .back-logo-pc{
-        display: none;
-    }
-
-    .skills .back-logo-mobile .card{
-        width: 90%;
-        height: 90%;
-        color: rgb(0, 0, 0);
-        margin-left: 25px;
-           
-    }
-
-    .skills .back-logo-mobile .card .card-title{
-        font-size: 15px;
-    }
-
-    .skills .back-logo-mobile .card img{
-        width:70%;
-        height:70%;
-        margin-left: 16%;
-    }
-
-
-    .skills .back-logo-mobile-fe .card{
-        width: 90%;
-        height: 90%;
-        color: rgb(0, 0, 0);
-        
-           
-    }
-
-    .skills .back-logo-mobile-fe .card .card-title{
-        font-size: 15px;
-    }
-
-    .skills .back-logo-mobile-fe .card img{
-        width:70%;
-        height:70%;
-        margin-left: 16%;
-    }
    
+.skills .card{
+    width: 160px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    display:flex;
+    align-items: center;
+    padding-top:20px ;
+    
+}
+
+.skills .card .logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 7px rgb(153, 152, 152),
+    -1px -1px 7px rgb(168, 157, 157);
+    padding: 5px;
+}
+
+.skills .card .logo img{
+    width: 70%;
+}
+
+.skills .card label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Potta One', cursive;
+
+}
+
+.skills .card .label-bg{
+    margin-top: 40px;
+    color: rgb(244, 244, 244);
+    width:80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(57, 61, 66);
+    box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
+    -1px -1px 7px rgb(34, 31, 31) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
 }
 
@@ -626,60 +625,60 @@
         margin-top: 7%;
     }
 
-    .skills .back-logo-mobile{
-        display: none;
-    }
-
-    .skills .back-logo-mobile-fe{
-        display: none;
-    }
-
-    .skills .skills-tab{
-        margin-top: 7%;
-    }
-  
-    .skills .back-logo-pc{
-        margin-top:5%;
+   
+    .skills .card{
+        width: 160px;
+        height: 210px;
+        margin: 10px;
+        border-radius: 15px;
+        background-color: rgb(57, 61, 66) ;
+        box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+        display:flex;
+        align-items: center;
+        padding-top:20px ;
+        
     }
     
-    .skills .back-logo-pc .card{
-        width: 100%;
-        height: 100%;
-        color: rgb(0, 0, 0);
+    .skills .card .logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 1px 7px rgb(153, 152, 152),
+        -1px -1px 7px rgb(168, 157, 157);
+        padding: 5px;
+        margin-top: 10px;
+    }
+    
+    .skills .card .logo img{
+        width: 70%;
+    }
+    
+    .skills .card label{
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Potta One', cursive;
+    }
+    
+    .skills .card .label-bg{
+        margin-top: 40px;
+        color: rgb(244, 244, 244);
+        width:80%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(57, 61, 66);
+        box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
+        -1px -1px 7px rgb(34, 31, 31) inset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-
-    .skills .back-logo-pc .card img{
-        width:70%;
-        height:70%;
-        margin-left: 16%;
-    }
-
-
 }
 
-
-
-.skills .familiar{
-    margin-top: 7%;
-}
-
-.skills .familiar ul li{
-    font-size: 20px;
-    font-weight: 500;
-    list-style:none;
-    margin: 20px;
-}
-
-.skills .familiar ul i{
-    font-size: 25px;
-    color: rgb(0, 255, 55);
-}
-
-.skills .familiar ul i::after{
-    content: "";
-    margin-right: 10px;
-}
 
 
 

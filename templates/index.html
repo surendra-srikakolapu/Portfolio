@@ -145,240 +145,197 @@
                             <div class="tab-pane row  fade show active" id="nav-home" role="tabpanel"
                                 aria-labelledby="nav-home-tab">
 
-
-                                <div  class="row justify-content-center back-logo-pc">
-                                   <div class="col-1">
-
-                                   </div>
-                                    <div class="col-2">
-                                        <div class="card shadow-lg rounded mb-1 wow bounceInLeft">
-                                            <img src="{% static 'logos/python-logo.png' %}" class="img-fluid p-3"  alt="">
-                                           <div class="card-body">
-                                               <h5 class="card-title text-center"><strong>Python</strong></h5>
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="col-2">
-                                    <div class="card shadow-lg rounded mb-1 wow bounceInUp">
-                                        <img src="{% static 'logos/django-logo.png' %}" class="img-fluid p-3"  alt="">
-                                       <div class="card-body">
-                                           <h5 class="card-title text-center"><strong>DJANGO</strong></h5>
-                                       </div>
-                                   </div>
-                               </div>
-                                   <div class="col-2">
-                                    <div class="card shadow-lg rounded mb-1 wow flip">
-                                        <img src="{% static 'logos/drf-logo.png' %}" class="img-fluid p-2 mt-3 "  alt="">
-                                       <div class="card-body mt-3">
-                                           <h5 class="card-title text-center"><strong>REST API</strong></h5>
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="col-2">
-                                <div class="card shadow-lg rounded mb-1 wow bounceInUp ">
-                                    <img src="{% static 'logos/mysql-logo.png' %}" class="img-fluid p-3 mt-2" alt="">
-                                   <div class="card-body">
-                                       <h5 class="card-title text-center"><strong>MySQL</strong></h5>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-2">
-                            <div class="card shadow-lg rounded mb-1 wow bounceInRight">
-                                <img src="{% static 'logos/mongodb-logo.png' %}" class="img-fluid p-3 mt-2"  alt="">
-                               <div class="card-body">
-                                   <h5 class="card-title text-center"><strong>Mongodb</strong></h5>
-                               </div>
-                           </div>
-                       </div>
-                                   
-                                </div>
-
-                                <div class="row justify-content-center back-logo-mobile">
-                                    
-                                     <div class="col-6 mb-3">
-                                         <div class="card shadow-lg rounded mb-1 wow bounceInUp">
-                                             <img src="{% static 'logos/python-logo.png' %}" class="img-fluid p-3"  alt="">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center"><strong>Python</strong></h5>
+                                <div class="row">
+                                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                        <div class="card">
+                                            <div class="logo">
+                                                <img src="{% static 'logos/python-logo.png' %}" alt="">
+                                            </div>
+                                            <div class="label-bg">
+                                                <label>Python</label>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-6 mb-3">
-                                     <div class="card shadow-lg rounded mb-1 wow bounceInUp">
-                                         <img src="{% static 'logos/django-logo.png' %}" class="img-fluid p-3"  alt="">
-                                        <div class="card-body">
-                                            <h5 class="card-title text-center"><strong>DJANGO</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div class="col-6 mb-3">
-                                     <div class="card shadow-lg rounded mb-1 wow bounceInUp">
-                                         <img src="{% static 'logos/drf-logo.png' %}" class="img-fluid p-2 mt-3 "  alt="">
-                                        <div class="card-body mt-3">
-                                            <h5 class="card-title text-center"><strong>REST API</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 mb-3">
-                                 <div class="card shadow-lg rounded mb-1 wow bounceInUp">
-                                     <img src="{% static 'logos/mysql-logo.png' %}" class="img-fluid p-3 mt-2" alt="">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center"><strong>MySQL</strong></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                             <div class="card shadow-lg rounded wow bounceInUp">
-                                 <img src="{% static 'logos/mongodb-logo.png' %}" class="img-fluid p-2"  alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center"><strong>Mongodb</strong></h5>
-                                </div>
-                            </div>
-                        </div>
-                                    
+                                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/django-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>Django</label>
+                                         </div>
+                                     </div>
                                  </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/drf-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>Rest Api</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/mysql-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>MySql</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/mongodb-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>Mongodb</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                         
+                                     </div>
+                                 </div>
+                                </div> 
+                                
 
                             </div>
                             <div class="tab-pane fade" id="nav-profile" role="tabpanel"
                                 aria-labelledby="nav-profile-tab">
 
-                                <div  class="row justify-content-center back-logo-pc">
-                                    <div class="col-2">
-                                        <div style="height:200px;" class="card shadow-lg rounded mb-1">
-                                            <img src="{% static 'logos/html-logo.png' %}" class="img-fluid p-3"  alt="">
-                                           <div class="card-body">
-                                               <h5 class="card-title text-center"><strong>HTML</strong></h5>
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="col-2">
-                                    <div style="height:200px;" class="card shadow-lg rounded mb-1 ">
-                                        <img src="{% static 'logos/css-logo.png' %}" class="img-fluid p-3"  alt="">
-                                       <div class="card-body">
-                                           <h5 class="card-title text-center"><strong>CSS</strong></h5>
-                                       </div>
-                                   </div>
-                               </div>
-                                   <div class="col-2">
-                                    <div style="height:200px;" class="card shadow-lg rounded mb-1 ">
-                                        <img src="{% static 'logos/js-logo.png' %}" class="img-fluid p-2 mt-3 "  alt="">
-                                       <div class="card-body mt-3">
-                                           <h5  style="font-size:17px; class="card-title text-center"><strong>JAVASCRIPT</strong></h5>
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="col-2">
-                                <div style="height:200px;" class="card shadow-lg rounded mb-1 ">
-                                    <img src="{% static 'logos/bootstrap-logo.png' %}" class="img-fluid p-1 mt-2" alt="">
-                                   <div class="card-body mt-3">
-                                       <h5 style="font-size:17px;" class="card-title text-center"><strong>BOOTSTRAP</strong></h5>
-                                   </div>
-                               </div>
-                           </div>
-                           <div style="height:200px;" class="col-2">
-                            <div class="card shadow-lg rounded mb-1">
-                                <img src="{% static 'logos/react-logo.png' %}" class="img-fluid mt-2"  alt="">
-                               <div class="card-body">
-                                   <h5 class="card-title text-center"><strong>REACT JS</strong></h5>
-                               </div>
-                           </div>
-                       </div>
-
-                       <div class="col-2">
-                        <div  style="height:200px;" class="card shadow-lg rounded mb-1">
-                            <img style="width:100%;margin-left:-5px;" src="{% static 'logos/htmx-logo.png' %}" class="img-fluid p-2 mt-1"  alt="">
-                           <div class="card-body">
-                               <h5 class="card-title text-center"><strong>HTMX</strong></h5>
-                           </div>
-                       </div>
-                   </div>
-
-
-
-                            </div>
-
-                            <div  class="row justify-content-center back-logo-mobile-fe">
-                                <div class="col-6">
-                                    <div class="card shadow-lg rounded mb-1 ">
-                                        <img src="{% static 'logos/html-logo.png' %}" class="img-fluid p-3"  alt="">
-                                       <div class="card-body">
-                                           <h5 class="card-title text-center"><strong>HTML</strong></h5>
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="col-6">
-                                <div class="card shadow-lg rounded mb-1">
-                                    <img src="{% static 'logos/css-logo.png' %}" class="img-fluid p-3"  alt="">
-                                   <div class="card-body">
-                                       <h5 class="card-title text-center"><strong>CSS</strong></h5>
-                                   </div>
-                               </div>
-                           </div>
-                               <div class="col-6">
-                                <div class="card shadow-lg rounded mb-1">
-                                    <img src="{% static 'logos/js-logo.png' %}" class="img-fluid p-2 mt-3 "  alt="">
-                                   <div class="card-body mt-1">
-                                       <h5 class="card-title text-center"><strong>JAVASCRIPT</strong></h5>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-6">
-                            <div class="card shadow-lg rounded mb-1">
-                                <img src="{% static 'logos/bootstrap-logo.png' %}" class="img-fluid p-1 mt-2" alt="">
-                               <div class="card-body">
-                                   <h5 class="card-title text-center"><strong>BOOTSTRAP</strong></h5>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="col-6">
-                        <div class="card shadow-lg rounded mb-1">
-                            <img src="{% static 'logos/react-logo.png' %}" class="img-fluid mt-4"  alt="">
-                           <div class="card-body">
-                               <h5 class="card-title text-center"><strong>REACT JS</strong></h5>
-                           </div>
-                       </div>
-                   </div>
-
-                   <div class="col-6">
-                    <div class="card shadow-lg rounded mb-1">
-                        <img style="width:100%;margin-left:-5px;margin-top: 10px;" src="{% static 'logos/htmx-logo.png' %}" class="img-fluid p-3 mt-2"  alt="">
-                       <div class="card-body">
-                           <h5 class="card-title text-center"><strong>HTMX</strong></h5>
-                       </div>
-                   </div>
-               </div>
-
-
-
-                        </div>
+                                <div class="row">
+                                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                        <div class="card">
+                                            <div class="logo">
+                                                <img src="{% static 'logos/html-logo.png' %}" alt="">
+                                            </div>
+                                            <div class="label-bg">
+                                                <label>Python</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/css-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>Django</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/js-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>Rest Api</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/bootstrap-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>MySql</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/react-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>Mongodb</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                        <div class="logo">
+                                            <img src="{% static 'logos/htmx-logo.png' %}" alt="">
+                                        </div>
+                                        <div class="label-bg">
+                                            <label>Mongodb</label>
+                                        </div>                         
+                                     </div>
+                                 </div>
+                                </div> 
 
                             </div>
                             <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                 aria-labelledby="nav-contact-tab">
 
-                                <div class="row justify-content-center familiar">
-                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                        <ul>
-                                            <li><i class="fa-solid fa-angles-right"></i>  Web Scraping</li>
-                                            <li><i class="fa-solid fa-angles-right"></i>  OAuth</li>
-                                            <li><i class="fa-solid fa-angles-right"></i>  Adobe Photoshop</li>
-                                            <li><i class="fa-solid fa-angles-right"></i>  Postman</li>
-                                        </ul>
+                                <div class="row">
+                                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                        <div class="card">
+                                            <div class="logo">
+                                                <img src="{% static 'logos/docker-logo.png' %}" alt="">
+                                            </div>
+                                            <div class="label-bg">
+                                                <label>Python</label>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                        <ul>
-                                            <li><i class="fa-solid fa-angles-right"></i>  Web Scraping</li>
-                                            <li><i class="fa-solid fa-angles-right"></i>  JWT(Json Web Tokens)</li>
-                                            <li><i class="fa-solid fa-angles-right"></i>  OAuth</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                        <ul>
-                                            <li><i class="fa-solid fa-angles-right"></i>  Web Scraping</li>
-                                            <li><i class="fa-solid fa-angles-right"></i>  OAuth</li>
-                                            <li><i class="fa-solid fa-angles-right"></i>  Adobe Photoshop</li>
-                                        </ul>
-                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/git-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>Django</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/ps-logo-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>Rest Api</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/pm-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>MySql</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                         <div class="logo">
+                                             <img src="{% static 'logos/vs-logo.png' %}" alt="">
+                                         </div>
+                                         <div class="label-bg">
+                                             <label>Mongodb</label>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 col-6">
+                                     <div class="card">
+                                        <div class="logo">
+                                            <img src="{% static 'logos/htmx-logo.png' %}" alt="">
+                                        </div>
+                                        <div class="label-bg">
+                                            <label>Mongodb</label>
+                                        </div>                         
+                                     </div>
+                                 </div>
                                 </div>
                                 
  
