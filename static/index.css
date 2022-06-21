@@ -450,10 +450,10 @@
 
     .skills{
         background-color:rgb(57, 61, 66) ;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+       min-height: 100vh;
+       display: flex;
+       justify-content: center;
+        align-items: center;
     }
 
     .skills .heading{
@@ -616,10 +616,16 @@
     }
 
     .skills{
+        background-color:rgb(57, 61, 66) ;
         min-height: 100vh;
-        color:white;
-        background-color:rgb(38,38,38);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    .skills .tab-pane .row{
+        margin-top: 8%;
+    } 
 
     .skills .heading{
         margin-top: 7%;
