@@ -460,10 +460,15 @@
         display: none;
     }
 
+    .skills .tab-pane .row{
+        margin-top: 4%;
+    } 
+
     .skills .skills-tab{
-        margin-top: 7%;
+        margin-top: 2%;
         color: white;
     }
+
 
     
 .skills .card{
@@ -695,6 +700,9 @@
 
     .portfolio{
         min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background:linear-gradient(to right, #7f00ff, #e100ff);
     background-image: 
         radial-gradient(at 47% 33%, hsl(162.00, 97%, 40%) 0, transparent 99%), 
@@ -702,20 +710,52 @@
 
     }
 
-    .portfolio .card {
-        backdrop-filter: blur(16px) saturate(180%);
-        -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(27, 34, 49, 0.75);
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.125);
-        width: 800px;
-        height:400px;
+  
+
+    .portfolio .mobile {
         position: relative;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,30%);
-        overflow: hidden;
+        width: 245px;
+        height: 450px;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        margin-left: 75px;
     }
+    
+    .portfolio .screen {
+        position: absolute;
+        top: 20px;
+        bottom: 30px;
+        left: 6px;
+        right: 6px;
+        background-color: rgb(199, 187, 187);
+        border-radius: 5px;
+        overflow: hidden;
+    
+    }
+
+    .portfolio .img-left{
+    background-image: url("/static/aaa.png");
+    width:400px;
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(180deg);
+
+    }
+
+     .portfolio .img-right{
+    background-image: url("/static/aaa.png");
+    width:400px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+   
 
     
 
@@ -889,6 +929,9 @@
 
     .portfolio{
         min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background:linear-gradient(to right, #7f00ff, #e100ff);
     background-image: 
         radial-gradient(at 47% 33%, hsl(162.00, 97%, 40%) 0, transparent 99%), 
@@ -896,20 +939,52 @@
 
     }
 
-    .portfolio .card {
-        backdrop-filter: blur(16px) saturate(180%);
-        -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(27, 34, 49, 0.75);
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.125);
-        width: 800px;
-        height:400px;
+  
+
+    .portfolio .mobile {
         position: relative;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,30%);
-        overflow: hidden;
+        width: 245px;
+        height: 450px;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        margin-left: 75px;
     }
+    
+    .portfolio .screen {
+        position: absolute;
+        top: 20px;
+        bottom: 30px;
+        left: 6px;
+        right: 6px;
+        background-color: rgb(199, 187, 187);
+        border-radius: 5px;
+        overflow: hidden;
+    
+    }
+
+    .portfolio .img-left{
+    background-image: url("/static/aaa.png");
+    width:400px;
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(180deg);
+
+    }
+
+     .portfolio .img-right{
+    background-image: url("/static/aaa.png");
+    width:400px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+   
 
     
     .modal .modal-content{
@@ -1077,6 +1152,9 @@
 
     .portfolio{
         min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background:linear-gradient(to right, #7f00ff, #e100ff);
     background-image: 
         radial-gradient(at 47% 33%, hsl(162.00, 97%, 40%) 0, transparent 99%), 
@@ -1084,20 +1162,53 @@
 
     }
 
-    .portfolio .card {
-        backdrop-filter: blur(16px) saturate(180%);
-        -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(27, 34, 49, 0.75);
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.125);
-        width: 800px;
-        height:400px;
+  
+
+    .portfolio .mobile {
         position: relative;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,30%);
-        overflow: hidden;
+        width: 245px;
+        height: 450px;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        margin-left: 75px;
     }
+    
+    .portfolio .screen {
+        position: absolute;
+        top: 20px;
+        bottom: 30px;
+        left: 6px;
+        right: 6px;
+        background-color: rgb(199, 187, 187);
+        border-radius: 5px;
+        overflow: hidden;
+    
+    }
+
+    .portfolio .img-left{
+    background-image: url("/static/aaa.png");
+    width:100%;
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(180deg);
+
+    }
+
+     .portfolio .img-right{
+    background-image: url("/static/aaa.png");
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+   
+
 
     .modal .modal-content{
         background-color:black;        
@@ -1257,3 +1368,145 @@
     }
     
 }
+
+
+
+
+.portfolio .label-neo{
+    width:200px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px  rgb(255, 255, 255) ,
+    -3px -3px 8px rgb(0, 0, 0),
+     0px 0px 2px  rgb(0, 0, 0) inset,
+    -0px -0px 2px rgb(0, 0, 0) inset;
+    margin-top: 30px;
+  }
+  
+  .portfolio .label-neo i{
+    margin-left: 10px;
+    color: white;
+  }
+  
+  .portfolio .label-neo label{
+    padding-top: 8px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 246, 246);
+  }
+
+  .portfolio marquee{
+   
+    height: 500px;
+    width: 400px;
+    left:20px;
+    padding:20px;
+    width: calc(180px * 20);
+    display: flex;
+    animation: scroll 2s linear infinite;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+
+
+  .marquee-inner.to-left{
+    animation: marqueeTop 20s linear infinite;
+  }
+  .marquee-inner.to-right{
+    animation: marqueeBottom smooth 20s linear infinite;
+  }
+  
+  @keyframes marqueeTop{
+    0% {
+      top: 0;
+    }
+    100% {
+      top: -100%;
+    }
+  }
+  @keyframes marqueeBottom{
+    0% { 
+      top: -100%; 
+    }
+    100% {
+     top: 0; 
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .button {
+    position: relative;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+  }
+  
+  .button:active {
+  }
+  
+  .button__text {
+    color: #ffffff;
+    transition: all 0.2s;
+    font-size: 30px;
+  }
+  
+  .button--loading .button__text {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+ 
+
+  .button--loading::after {
+    content: "";
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: button-loading-spinner 1s ease infinite;
+  }
+  
+  @keyframes button-loading-spinner {
+    from {
+      transform: rotate(0turn);
+    }
+  
+    to {
+      transform: rotate(1turn);
+    }
+  }
