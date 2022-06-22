@@ -463,7 +463,7 @@
     }
 
     .skills .skills-tab{
-        margin-top: -20%;
+        margin-top: -30%;
         color: white;
     }
 
@@ -635,11 +635,19 @@
         align-items: center;
     }
 
+    .skills .skills-tab{
+        margin-top: 10%;
+        color: white;
+    }
+
     .skills .tab-pane .row{
-        margin-top: 18%;
+        margin-top: 8%;
     } 
 
-   
+    .skills .heading{
+        margin-top: 7%;
+    }
+
    
     .skills .card{
         width: 160px;
