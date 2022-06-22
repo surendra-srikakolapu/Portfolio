@@ -47,10 +47,6 @@
 
 
 
-
-
-
-
 @media (max-width: 765px) {
 
   
@@ -720,7 +716,7 @@
         height: 450px;
         background: rgb(0, 0, 0);
         border-radius: 20px;
-        margin-left: 75px;
+        margin-left: -70px;
     }
     
     .portfolio .screen {
@@ -735,28 +731,7 @@
     
     }
 
-    .portfolio .img-left{
-    background-image: url("/static/aaa.png");
-    width:400px;
-    height: 100%;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    transform: rotate(180deg);
-
-    }
-
-     .portfolio .img-right{
-    background-image: url("/static/aaa.png");
-    width:400px;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
+    
    
 
     
@@ -1186,14 +1161,6 @@
     
     }
 
-    .portfolio .img-left{
-   
-
-    }
-
-     .portfolio .img-right{
-    
-    }
    
 
 
