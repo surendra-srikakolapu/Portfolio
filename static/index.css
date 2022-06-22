@@ -636,13 +636,10 @@
     }
 
     .skills .tab-pane .row{
-        margin-top: 8%;
+        margin-top: 18%;
     } 
 
-    .skills .heading{
-        margin-top: 7%;
-    }
-
+   
    
     .skills .card{
         width: 160px;
