@@ -463,7 +463,7 @@
     
 
     .skills .skills-tab{
-        margin-top: -29%;
+        margin-top: -20%;
         color: white;
     }
 
@@ -1172,7 +1172,6 @@
         height: 450px;
         background: rgb(0, 0, 0);
         border-radius: 20px;
-        margin-left: 75px;
     }
     
     .portfolio .screen {
@@ -1188,26 +1187,12 @@
     }
 
     .portfolio .img-left{
-    background-image: url("/static/aaa.png");
-    width:100%;
-    height: 100%;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    transform: rotate(180deg);
+   
 
     }
 
      .portfolio .img-right{
-    background-image: url("/static/aaa.png");
-    width:100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     }
    
 
