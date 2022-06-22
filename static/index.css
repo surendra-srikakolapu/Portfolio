@@ -494,8 +494,8 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    box-shadow: 1px 1px 7px rgb(153, 152, 152),
-    -1px -1px 7px rgb(168, 157, 157),1px 1px 15px rgb(39, 37, 37) inset,
+    box-shadow: 1px 1px 3px rgb(153, 152, 152),
+    -1px -1px 3px rgb(168, 157, 157),1px 1px 15px rgb(39, 37, 37) inset,
     -1px -1px 15px rgb(34, 31, 31) inset;
     padding: 5px;
     border: 3px solid rgb(25, 22, 22);
