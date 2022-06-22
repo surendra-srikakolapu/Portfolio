@@ -456,7 +456,12 @@
         display: none;
     }
 
-    
+    .skills .nav-tabs .nav-link{
+        outline: none;
+        color: white;
+        font-family: 'Potta One', cursive;
+
+    }
 
     .skills .skills-tab{
         margin-top: -20%;
@@ -500,8 +505,7 @@
 }
 
 .skills .card label{
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-size: 18px;
     font-family: 'Potta One', cursive;
     margin-top: 5%;
 
