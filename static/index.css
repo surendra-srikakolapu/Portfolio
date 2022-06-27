@@ -401,12 +401,13 @@
 .skills .card{
     width: 140px;
     height: 160px;
-    margin:0 auto;
+    margin:auto;
     border-radius: 15px;
     background-color: rgb(57, 61, 66) ;
     box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
     display:flex;
     align-items: center;
+    justify-content: center;
     padding-top:20px ;
     
 }
