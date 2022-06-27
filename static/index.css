@@ -394,6 +394,9 @@
 
     .skills .tab-pane .row{
         margin-top: 5%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
     } 
 
 
@@ -401,7 +404,7 @@
 .skills .card{
     width: 140px;
     height: 160px;
-    margin:auto;
+    margin:5px;
     border-radius: 15px;
     background-color: rgb(57, 61, 66) ;
     box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
