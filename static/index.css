@@ -48,9 +48,94 @@
 
 
 
-@media (min-width:200px) and (max-width:765px){
+@media (min-width:200px) and (max-width:410px){
 
   
+    .profile {
+        background:rgb(255, 255, 0);
+        min-height: 100vh;
+    }
+
+    nav.navbar-expand-lg{
+        display: none;
+    }
+
+
+    .mobile-nav-row{
+        background-color: #342f2d;
+        padding:10px;
+        border-radius:35px;
+        opacity:0.7;
+        z-index:1;
+    }
+
+    
+
+    .mobile-nav a.skills-nav{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        text-align: center;
+        font-size: 13px;
+        background-color:white;
+        color:black;
+        border-radius:30px;
+    }
+
+   
+    .profile .profile-right {
+        margin-top: 5%;
+    }
+
+
+    .profile .profile-right .name {
+        font-size: 30px;
+        font-weight: 700;
+        width: 90%;
+        background-color: black;
+        border-radius: 20%;
+        padding: 10px;
+        margin: 0 auto;
+        color: aliceblue;
+    }
+
+    .profile .profile-right .para {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .profile .profile-right .btn {
+        font-size: 25px;
+        color: aliceblue;
+        background-color: black;
+        border: 3px solid rgb(28, 22, 22);
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .profile .profile-right .btn:hover {
+        font-size: 25px;
+        color: aliceblue;
+        background-color: black;
+        border: 3px solid rgb(236, 236, 236);
+        border-radius: 15px;
+        text-align: center;
+    }
+
+
+    .profile img {
+        position: relative;
+        width: 100%;
+        margin-top: -25px;
+    }
+
+
+
+   
+
+}
+
+@media (min-width: 411px) and (max-width: 765px){
     .profile {
         background:rgb(255, 255, 0);
         min-height: 100vh;
@@ -128,82 +213,7 @@
         width: 100%;
         margin-top: -25px;
     }
-
-
-
-    .mobile {
-        position: relative;
-        margin-bottom: 10%;
-        height: 220px;
-        width: 100%;
-        background: white;
-        border-radius: 20px;
-    }
-
-    .mobile-left {
-        padding: 50px;
-        color: #e2d7d8;
-        font-weight: 700;
-        margin-top: 30px !important;
-        font-size: 30px;
-    }
-
-    .mobile ul {
-        top: 35px;
-        position: absolute;
-        right: 6px;
-        list-style: none;
-    }
-
-    .mobile ul li {
-        margin-bottom: 36px;
-    }
-
-    .mobile ul li .fa-chevron-circle-left {
-        transform: rotate(90deg);
-        font-size: 20px;
-        color: red;
-    }
-
-    .mobile ul li .fa-chevron-circle-right {
-        transform: rotate(90deg);
-        font-size: 20px;
-        color: red;
-    }
-
-    .mobile ul li .fa-home {
-        transform: rotate(270deg);
-        font-size: 20px;
-
-    }
-
-    .screen {
-        position: absolute;
-        left: 20px;
-        right: 30px;
-        top: 6px;
-        bottom: 6px;
-        background-color: black;
-        border-radius: 5px;
-        overflow: hidden;
-    }
-
-    .carousel-item img {
-        height: 210px;
-        width: 100%;
-    }
-
-   
-
-    .back-to-top{
-        display: none;
-    }
-
-    
-
 }
-
-
 
 @media (min-width: 766px) and (max-width: 980px) {
 
@@ -357,81 +367,7 @@
 
 
 
-    .mobile-left {
-        padding: 50px;
-        color: #e2d7d8;
-        font-weight: 700;
-        margin-top: 20%;
-        font-size: 50px;
-    }
-
-
-    .mobile {
-        position: relative;
-
-        margin-top: 20%;
-        height: 305px;
-        width: 550px;
-        background: white;
-        border-radius: 20px;
-    }
-
-    .mobile ul {
-        top: 35px;
-        position: absolute;
-        right: 4px;
-        list-style: none;
-    }
-
-    .mobile ul li {
-        margin-bottom: 77px;
-    }
-
-    .mobile ul li .fa-chevron-circle-left {
-        transform: rotate(90deg);
-        font-size: 20px;
-    }
-
-    .mobile ul li .fa-home {
-        transform: rotate(270deg);
-        font-size: 20px;
-    }
-
-    .mobile ul li .fa-chevron-circle-right {
-        transform: rotate(90deg);
-        font-size: 20px;
-    }
-
-    .screen {
-        position: absolute;
-        left: 20px;
-        right: 30px;
-        top: 10px;
-        bottom: 10px;
-        background-color: black;
-        border-radius: 5px;
-        overflow: hidden;
-    }
-
-    .carousel-item img {
-        height: 300px;
-        width: 100%;
-    }
-
-
-   
-
-
-    .back-to-top {
-        position: fixed;
-        width: 3rem;
-        height: 3rem;
-        right: 1.875rem;
-        bottom: 1.875rem;
-        z-index: 9999;
-    }
-
-
+    
 }
 
 
@@ -523,6 +459,90 @@
 }
 
 
+@media (min-width: 411px) and (max-width: 765px) {
+
+    .skills{
+        background-color:rgb(57, 61, 66) ;
+       min-height: 100vh;
+       display: flex;
+       justify-content: center;
+        align-items: center;
+    }
+
+    .skills .heading{
+        display: none;
+    }
+
+    .skills .nav-tabs .nav-link{
+        outline: none;
+        color: white;
+
+    }
+
+  
+
+    .skills .tab-pane .row{
+        margin-top: 5%;
+    } 
+
+
+    
+.skills .card{
+    width: 160px;
+    height: 190px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    display:flex;
+    align-items: center;
+    padding-top:20px ;
+    
+}
+
+.skills .card .logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 3px rgb(153, 152, 152),
+    -1px -1px 3px rgb(168, 157, 157),1px 1px 15px rgb(39, 37, 37) inset,
+    -1px -1px 15px rgb(34, 31, 31) inset;
+    padding: 5px;
+    border: 3px solid rgb(25, 22, 22);
+
+}
+
+.skills .card .logo img{
+    width: 70%;
+}
+
+.skills .card label{
+    font-size: 18px;
+    font-family: 'Potta One', cursive;
+    margin-top: 5%;
+
+}
+
+.skills .card .label-bg{
+    margin-top: 30px;
+    color: rgb(244, 244, 244);
+    width:86%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(57, 61, 66);
+    box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
+    -1px -1px 7px rgb(34, 31, 31) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+}
 
 @media (min-width: 766px) and (max-width: 980px) {
     .skills{
@@ -614,90 +634,7 @@
 
 
 
-@media (min-width: 411px) and (max-width: 765px) {
 
-    .skills{
-        background-color:rgb(57, 61, 66) ;
-       min-height: 100vh;
-       display: flex;
-       justify-content: center;
-        align-items: center;
-    }
-
-    .skills .heading{
-        display: none;
-    }
-
-    .skills .nav-tabs .nav-link{
-        outline: none;
-        color: white;
-
-    }
-
-  
-
-    .skills .tab-pane .row{
-        margin-top: 5%;
-    } 
-
-
-    
-.skills .card{
-    width: 160px;
-    height: 190px;
-    margin: 10px;
-    border-radius: 15px;
-    background-color: rgb(57, 61, 66) ;
-    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
-    display:flex;
-    align-items: center;
-    padding-top:20px ;
-    
-}
-
-.skills .card .logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    box-shadow: 1px 1px 3px rgb(153, 152, 152),
-    -1px -1px 3px rgb(168, 157, 157),1px 1px 15px rgb(39, 37, 37) inset,
-    -1px -1px 15px rgb(34, 31, 31) inset;
-    padding: 5px;
-    border: 3px solid rgb(25, 22, 22);
-
-}
-
-.skills .card .logo img{
-    width: 70%;
-}
-
-.skills .card label{
-    font-size: 18px;
-    font-family: 'Potta One', cursive;
-    margin-top: 5%;
-
-}
-
-.skills .card .label-bg{
-    margin-top: 30px;
-    color: rgb(244, 244, 244);
-    width:86%;
-    height: 40px;
-    border-radius: 5px;
-    background-color: rgb(57, 61, 66);
-    box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
-    -1px -1px 7px rgb(34, 31, 31) inset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    
-
-}
 
 
 
