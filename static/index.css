@@ -382,9 +382,6 @@
         align-items: center;
     }
 
-    .skills .heading{
-        display: none;
-    }
 
     .skills .nav-tabs .nav-link{
         outline: none;
@@ -404,7 +401,7 @@
 .skills .card{
     width: 140px;
     height: 160px;
-    margin: 5px;
+    margin:0 auto;
     border-radius: 15px;
     background-color: rgb(57, 61, 66) ;
     box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
