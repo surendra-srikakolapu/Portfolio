@@ -436,7 +436,7 @@
 
 
 
-@media (min-width: 200px) and (max-width: 423px) {
+@media (min-width: 200px) and (max-width: 400px) {
 
     .skills{
         background-color:rgb(57, 61, 66) ;
@@ -613,7 +613,7 @@
 
 
 
-@media (min-width: 424px) and (max-width: 765px) {
+@media (min-width: 401px) and (max-width: 765px) {
 
     .skills{
         background-color:rgb(57, 61, 66) ;
