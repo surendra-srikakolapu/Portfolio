@@ -48,7 +48,7 @@
 
 
 
-@media (min-width:320px) and (max-width:765px){
+@media (min-width:200px) and (max-width:765px){
 
   
     .profile {
@@ -700,87 +700,6 @@
 
 
 
-@media (min-width: 766px) and (max-width: 980px) {
-    .skills{
-        background-color:rgb(57, 61, 66) ;
-    min-height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-        
-    }
-
-    .skills .heading{
-        margin-top: 8%;
-    }
-
-    .skills .heading{
-        font-size: 70px;
-    }
-
-    .skills .nav-tabs{
-        margin-top: 10%;
-    }
-
-    .skills .nav-link{
-        font-size: 30px;
-    }
-
-   
-.skills .card{
-    width: 160px;
-    height: 200px;
-    margin: 10px;
-    border-radius: 15px;
-    background-color: rgb(57, 61, 66) ;
-    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
-    display:flex;
-    align-items: center;
-    padding-top:20px ;
-    
-}
-
-.skills .card .logo {
-    width: 80px;
-    height: 80px;
-    border: 4px solid rgb(25, 22, 22);
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    box-shadow: 1px 1px 7px rgb(153, 152, 152),
-    -1px -1px 7px rgb(168, 157, 157),1px 1px 15px rgb(39, 37, 37) inset,
-    -1px -1px 15px rgb(34, 31, 31) inset;
-    padding: 5px;
-}
-
-.skills .card .logo img{
-    width: 70%;
-}
-
-.skills .card label{
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-family: 'Potta One', cursive;
-
-}
-
-.skills .card .label-bg{
-    margin-top: 40px;
-    color: rgb(244, 244, 244);
-    width:80%;
-    height: 40px;
-    border-radius: 5px;
-    background-color: rgb(57, 61, 66);
-    box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
-    -1px -1px 7px rgb(34, 31, 31) inset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-  
-}
 
 
 @media (min-width: 981px){
