@@ -261,8 +261,8 @@
 
       .profile .profile-right  #flip-card .flip-card-front p , #flip-card .flip-card-back p p.para {
 
-        font-size: 26px;
-        font-weight: bold;
+        font-size: 20px;
+        font-weight: 500;
         width: 90%;
         margin: 0 auto;
         margin-top: 20px;
