@@ -382,6 +382,9 @@
         
     }
 
+    .skills .nav-tabs{
+        margin-top: 5%;
+    }
 
     .skills .nav-tabs .nav-link{
         outline: none;
@@ -472,6 +475,10 @@
 
     .skills .heading{
         display: none;
+    }
+
+    .skills .nav-tabs{
+        margin-top: 5%;
     }
 
     .skills .nav-tabs .nav-link{
