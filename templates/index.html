@@ -79,17 +79,45 @@
 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 col-12 text-center profile-right">
 
     <h1 class="name">I'm Surendra</h1><br>
-    <p class="para">This is my portfolio website to showcase my all works related to <strong>PYTHON/DJANGO</strong> and
-        frontend . </p>
-
-    <div class="col-12 text-center">
-       
-        
-        <a href="http://surendra-profile.herokuapp.com/media/upload_download_files/Surendraresume.pdf" class="btn " download="{{file.file_upload}}">
-            Download CV</a>
     
-      
-    </div>
+
+    <div class="rotate-3d">
+        <div id="flip-card">
+          <div class="flip-card-front">
+            <p>
+
+            <div class="row">
+                
+                <div class="col-12">
+                    <p>This is my portfolio website to showcase my all works related to <strong>PYTHON/DJANGO</strong> and
+                        frontend . </p>
+                </div>
+                <div class="col-12 mt-5">
+                    <a href="http://surendra-profile.herokuapp.com/media/upload_download_files/Surendraresume.pdf" class="btn btn-outline-secondary" download="{{file.file_upload}}">
+                        Download CV</a>
+                </div>
+            </div>
+    
+          </p>
+          <button id="back-flip" class="wow heartBeat infinite"><i class="fa fa-repeat"></i></button></div>
+          <div class="flip-card-back"><p>
+             <div  class="row">
+  
+                <div class="col-12">
+                   <ul>
+                      <li><i class="fa-solid  bolder fa-angles-right"></i> Self-taught learner</li>
+                      <li><i class="fa-solid  bolder fa-angles-right"></i> Proficiency in development and deployment</li>
+                      <li><i class="fa-solid  bolder fa-angles-right"></i> Writing clean and maintainable code</li>
+                      <li>Checkout real-time concepts of full-stack Python/Django from here <a href="#portfolio">Click here</a> </li>
+                   </ul>
+                </div>
+             </div>
+          </p><button id="front-flip" class="wow heartBeat infinite"><i class="fa fa-repeat"></i></button></div>
+        </div>
+        </div>
+
+
+
 </div>
 
 
@@ -564,6 +592,23 @@
         
     </section>
 
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+        
+          document.getElementById('back-flip').style.visibility = 'visible';
+          document.getElementById('front-flip').style.visibility = 'visible';
+        
+          document.getElementById('back-flip').onclick = function() {
+          document.getElementById('flip-card').classList.toggle('do-flip');
+          };
+        
+          document.getElementById('front-flip').onclick = function() {
+          document.getElementById('flip-card').classList.toggle('do-flip');
+          };
+        
+        });
+      </script>
 
 
 
