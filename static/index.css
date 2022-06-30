@@ -258,8 +258,8 @@
 
       .profile .profile-right  #flip-card .flip-card-front p , #flip-card .flip-card-back p p.para {
         font-family: 'Concert One', cursive;
-        word-spacing: 2px;
-        font-size: 22px;
+        word-spacing: 1px;
+        font-size: 24px;
         font-weight: 500;
         width: 95%;
         margin: 0 auto;
