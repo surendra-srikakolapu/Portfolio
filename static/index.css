@@ -180,7 +180,7 @@
         background-color: black;
         border-radius: 20%;
         padding: 10px;
-        margin-left: 0 auto;
+        margin: 0 auto;
         color: aliceblue;
     }
 
@@ -258,10 +258,10 @@
 
       .profile .profile-right  #flip-card .flip-card-front p , #flip-card .flip-card-back p p.para {
         font-family: 'Calistoga', cursive;
-        word-spacing: 3px;
-        font-size: 20px;
+        word-spacing: 2px;
+        font-size: 22px;
         font-weight: 500;
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
         margin-top: 10px;
 
