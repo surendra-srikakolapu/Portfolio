@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Averia+Serif+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Concert+One&family=Bungee+Inline&family=IM+Fell+DW+Pica&family=Potta+One&family=Averia+Serif+Libre:wght@700&display=swap');
 
 .btn-rounded {
     position: relative;
@@ -169,26 +169,22 @@
 
    
     .profile .profile-right {
-        margin-top: 5%;
+        margin-top: 2%;
     }
 
 
     .profile .profile-right .name {
         font-size: 40px;
         font-weight: 700;
-        width: 70%;
+        width: 85%;
         background-color: black;
         border-radius: 20%;
         padding: 10px;
-        margin-left:16%;
+        margin-left: 0 auto;
         color: aliceblue;
     }
 
-    .profile .profile-right .para {
-        font-size: 20px;
-        font-weight: 700;
-    }
-
+  
     
     .profile img {
         position: relative;
@@ -230,6 +226,7 @@
         font-size: 25px;
         border: none;
         font-weight:bolder;
+        top: -30px;
         
       }
       #flip-card .flip-card-front, #flip-card .flip-card-back{
@@ -260,7 +257,8 @@
     
 
       .profile .profile-right  #flip-card .flip-card-front p , #flip-card .flip-card-back p p.para {
-
+        font-family: 'Calistoga', cursive;
+        word-spacing: 3px;
         font-size: 20px;
         font-weight: 500;
         width: 90%;
@@ -268,6 +266,31 @@
         margin-top: 10px;
 
     }
+
+    .flip-card-back ul{
+        list-style:none;
+        text-align: left;
+      }
+
+      .flip-card-back ul li{
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+        font-family: 'Concert One', cursive;
+        letter-spacing: 0.6px;
+        margin-top: 20px;
+      }
+
+      .flip-card-back ul li i{
+        background-color: #060608;
+        color: #ffffff;
+        padding: 7px;
+        border-radius: 50%;
+        font-size: 12px;
+        position: relative;
+        top:-4px;
+      }
+
 
 
 }
@@ -371,7 +394,7 @@
     }
 
     .profile .profile-right {
-        margin-top: 16%;
+        margin-top: 13%;
     }
 
 
@@ -385,13 +408,7 @@
         color: aliceblue;
     }
 
-    .profile .profile-right .para {
-        margin-top: 30px;
-        font-size: 26px;
-        font-weight: bold;
-
-
-    }
+  
 
     
     .profile .profile-left img {
@@ -437,6 +454,7 @@
         font-size: 25px;
         border: none;
         font-weight:bolder;
+        right: -60px;
         
       }
       #flip-card .flip-card-front, #flip-card .flip-card-back{
@@ -460,11 +478,25 @@
       }
 
       .flip-card-back ul li{
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 700;
-        word-spacing: 2px;
-        line-height: 50px;
+        margin-top: 30px;
+        color: black;
+        font-family: 'Concert One', cursive;
+        letter-spacing: 0.6px;
       }
+
+      .flip-card-back ul li i{
+        background-color: #060608;
+        color: #ffffff;
+        padding: 7px;
+        border-radius: 50%;
+        font-size: 15px;
+        position: relative;
+        top:-4px;
+      }
+    
+
     
 
       .profile .profile-right  #flip-card .flip-card-front p , #flip-card .flip-card-back p p.para {
@@ -474,6 +506,8 @@
         width: 90%;
         margin: 0 auto;
         margin-top: 20px;
+        font-family: 'Calistoga', cursive;
+        word-spacing: 5px;
 
     }
     
