@@ -68,31 +68,58 @@
         background:rgb(255, 255, 0);
         min-height: 100vh;
     }
-
     nav.navbar-expand{
-        display: none;
+      display: none;
+  }
+  
+
+  nav.mobile-nav{
+    background-color: #342f2d;
+    opacity:0.8;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+nav .mobile-nav-row ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10%;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+  nav .mobile-nav-row ul li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    padding:4px 7px 2px 7px;
+    background-color: white;
     }
-
-
-    .mobile-nav-row{
-        background-color: #342f2d;
-        padding:10px;
-        border-radius:35px;
-        opacity:0.7;
-        z-index:1;
-    }
-
     
+    nav .mobile-nav .mobile-nav-row ul li.active {
+    border-radius:5px;
+    transition: 0.3s;
 
-    .mobile-nav a.skills-nav{
-        position: relative;
-        display: flex;
-        justify-content:center;
-        text-align: center;
-        font-size: 13px;
-        background-color:white;
-        color:black;
-        border-radius:30px;
+    }
+    
+    nav .mobile-nav .mobile-nav-row ul li:hover a {
+      color: #ffffff;
+      }
+    nav  ul li.active a {
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
+
     }
 
    
@@ -242,28 +269,64 @@
         display: none;
     }
 
-
-    .mobile-nav-row{
-        background-color: #342f2d;
-        padding:10px;
-        border-radius:35px;
-        opacity:0.7;
-        z-index:1;
-    }
-
     
+  nav.mobile-nav{
+    background-color: #342f2d;
+    opacity:0.8;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    .mobile-nav a.skills-nav{
-        position: relative;
-        display: flex;
-        justify-content:center;
-        text-align: center;
-        font-size: 13px;
-        background-color:white;
-        color:black;
-        border-radius:30px;
+}
+
+nav .mobile-nav-row ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10%;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+  nav .mobile-nav-row ul li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    padding:4px 7px 2px 7px;
+    background-color: white;
     }
+    
+    nav .mobile-nav .mobile-nav-row ul li.active {
+    border-radius:5px;
+    transition: 0.3s;
 
+    }
+    
+    nav .mobile-nav .mobile-nav-row ul li:hover a {
+      color: #ffffff;
+      }
+    nav  ul li.active a {
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
+
+    }
+         
+          .profile {
+              background:rgb(255, 255, 0);
+              min-height:100vh;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+      
    
     .profile .profile-left {
          min-height: 40vh;
@@ -397,33 +460,36 @@
 
 @media (min-width: 766px) and (max-width: 980px) {
 
-    nav.navbar{
-        padding-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-        position: fixed;
-    }
+      nav .container ul{
+    position: relative;
+    left:12%;
+  }
 
-    nav.navbar ul.navbar-nav {
-        left: 10%;
-        position: relative;
-    }
+nav .container ul li {
+display: inline-block;
+text-decoration: none;
+font-size: 14px;
+color: black;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 10px;
+background-color: rgb(0, 0, 0);
+margin: 7px;
+padding:3px 3px;
+}
+nav .container ul li.active {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
+border-radius:10px;
+transition: 0.3s;
 
-    nav.navbar ul.navbar-nav li a{
-        background-color: rgb(0, 0, 0);
-        border-radius: 10px;
-        border: 2px solid white;
-        cursor: pointer;
-        font-size:16px;
-        margin-left: 10px;
-        opacity:0.7;
-        font-weight:500;
-    }
+}
 
-    nav.navbar ul.navbar-nav li a strong{
-        color: white;
-        padding:2px;
-    }
+nav .container ul li:hover a {
+  color: #ffffff;
+  }
+nav .container ul li.active a {
+color: #ffffff;
+}
+
 
     .profile {
         background:rgb(255, 255, 0);
@@ -433,7 +499,7 @@
         padding-top: 70px;
     }
 
-    .mobile-nav{
+    nav.mobile-nav{
         display: none;
     }
 
@@ -562,22 +628,36 @@
 
 @media (min-width: 981px){
 
-    nav.navbar ul.navbar-nav li a{
-        background-color: rgb(0, 0, 0);
-        border-radius: 10px;
-        border: 2px solid white;
-        cursor: pointer;
-        font-size:16px;
-        margin-left: 10px;
-        opacity:0.7;
-        font-weight:500;
-    }
+  nav .container ul{
+    position: relative;
+    left: 3%;
+  }
 
-    nav.navbar ul.navbar-nav li a strong{
-        color: white;
-        padding:2px;
-    }
+nav .container ul li {
+display: inline-block;
+text-decoration: none;
+color: black;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 10px;
+background-color: rgb(0, 0, 0);
+margin: 10px 15px 10px 10px;
+padding:3px 3px;
+letter-spacing: 1px;
+}
+nav .container ul li.active {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
+border-radius:10px;
+transition: 0.3s;
 
+}
+
+nav .container ul li:hover a {
+  color: #ffffff;
+  }
+nav .container ul li.active a {
+color: #ffffff;
+}
+   
     .profile {
         background:rgb(255, 255, 0);
         min-height:100vh;
@@ -586,7 +666,7 @@
         align-items: center;
     }
 
-    .mobile-nav{
+    nav.mobile-nav{
         display: none;
     }
 
@@ -713,7 +793,7 @@
 
 @media (min-width: 200px) and (max-width: 410px) {
 
-    .skills{
+    section.skills{
         background-color:rgb(57, 61, 66) ;
        min-height: 100vh;
        display: flex;
@@ -728,7 +808,7 @@
     .skills .nav-tabs .nav-link{
         outline: none;
         color: white;
-        font-size: 10px;
+        font-size: 15px;
 
     }
 
@@ -904,7 +984,7 @@ section.qualification .linkedin .link-prof{
 
 @media (min-width: 411px) and (max-width: 765px) {
 
-    .skills{
+    section.skills{
         background-color:rgb(57, 61, 66) ;
        min-height: 100vh;
        display: flex;
@@ -912,7 +992,7 @@ section.qualification .linkedin .link-prof{
        
     }
 
-    .skills .tab-pane .row{
+    section.skills .tab-pane .row{
         margin-top: 5%;
         display:flex;
         align-items: center;
@@ -920,25 +1000,29 @@ section.qualification .linkedin .link-prof{
         min-height: 80vh;
     } 
 
-    .skills .heading{
+     section.skills .heading{
         display: none;
     }
 
-    .skills .nav-tabs{
+     section.skills .nav-tabs{
         margin-top: 10%;
     }
 
-    .skills .nav-tabs .nav-link{
+     section.skills .nav-tabs .nav-link{
         outline: none;
         color: white;
 
+    }
+
+    section.skills .nav-tabs .nav-link.active{
+      color:black;
     }
 
 
 
 
     
-.skills .card{
+    section.skills .card{
     width: 160px;
     height: 190px;
     margin: 10px;
@@ -951,7 +1035,7 @@ section.qualification .linkedin .link-prof{
     
 }
 
-.skills .card .logo {
+section.skills .card .logo {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -967,18 +1051,18 @@ section.qualification .linkedin .link-prof{
 
 }
 
-.skills .card .logo img{
+section.skills .card .logo img{
     width: 70%;
 }
 
-.skills .card label{
+section.skills .card label{
     font-size: 18px;
     font-family: 'Potta One', cursive;
     margin-top: 5%;
 
 }
 
-.skills .card .label-bg{
+section.skills .card .label-bg{
     margin-top: 30px;
     color: rgb(244, 244, 244);
     width:86%;
@@ -1103,7 +1187,7 @@ section.qualification .linkedin .link-prof{
 }
 
 @media (min-width: 766px) and (max-width: 980px) {
-    .skills{
+    section.skills{
         background-color:rgb(57, 61, 66) ;
         min-height:100vh;
         min-height: -webkit-fill-available;
@@ -1114,20 +1198,20 @@ section.qualification .linkedin .link-prof{
     }
 
    
-    .skills .nav-tabs{
+    section.skills .nav-tabs{
         margin-top: 20%;
     }
 
-    .skills .nav-link{
+    section.skills .nav-link{
         font-size: 23px;
         color: white;
     }
 
-    .skills .tab-pane{
+    section.skills .tab-pane{
         margin-top: 7%;
     }
    
-.skills .card{
+  section.skills .card{
     width: 160px;
     height: 200px;
     margin:20px;
@@ -1140,7 +1224,7 @@ section.qualification .linkedin .link-prof{
     
 }
 
-.skills .card .logo {
+  section.skills .card .logo {
     width: 80px;
     height: 80px;
     border: 4px solid rgb(25, 22, 22);
@@ -1155,11 +1239,11 @@ section.qualification .linkedin .link-prof{
     padding: 5px;
 }
 
-.skills .card .logo img{
+  section.skills .card .logo img{
     width: 70%;
 }
 
-.skills .card label{
+  section.skills .card label{
     font-size: 15px;
     letter-spacing: 1px;
     font-family: 'Potta One', cursive;
@@ -1167,7 +1251,7 @@ section.qualification .linkedin .link-prof{
 
 }
 
-.skills .card .label-bg{
+  section.skills .card .label-bg{
     margin-top: 40px;
     color: rgb(244, 244, 244);
     width:80%;
@@ -1296,7 +1380,7 @@ section.qualification .linkedin .link-prof{
        
     }
 
-    .skills{
+    section.skills{
         background-color:rgb(57, 61, 66) ;
         min-height: 100vh;
         display: flex;
@@ -1304,21 +1388,21 @@ section.qualification .linkedin .link-prof{
         align-items: center;
     }
 
-    .skills .skills-tab{
+    section.skills .skills-tab{
         margin-top: 10%;
         color: white;
     }
 
-    .skills .tab-pane .row{
+    section.skills .tab-pane .row{
         margin-top: 8%;
     } 
 
-    .skills .heading{
+    section.skills .heading{
         margin-top: 7%;
     }
 
    
-    .skills .card{
+    section.skills .card{
         width: 160px;
         height: 210px;
         margin: 10px;
@@ -1331,7 +1415,7 @@ section.qualification .linkedin .link-prof{
         
     }
     
-    .skills .card .logo {
+    section.skills .card .logo {
         width: 80px;
         height: 80px;
         border-radius: 50%;
@@ -1347,18 +1431,18 @@ section.qualification .linkedin .link-prof{
         margin-top: 10px;
     }
     
-    .skills .card .logo img{
+    section.skills .card .logo img{
         width: 70%;
     }
     
-    .skills .card label{
+     section.skills .card label{
         font-size: 15px;
         letter-spacing: 1px;
         font-family: 'Potta One', cursive;
         margin-top: 5%;
     }
     
-    .skills .card .label-bg{
+     section.skills .card .label-bg{
         margin-top: 40px;
         color: rgb(244, 244, 244);
         width:80%;
@@ -1482,7 +1566,7 @@ section.qualification .linkedin .link-prof{
 
 @media (min-width:981px){
 
-    .portfolio{
+     section.portfolio{
         min-height: 100vh;
         display: flex;
         justify-content: center;
@@ -1492,7 +1576,7 @@ section.qualification .linkedin .link-prof{
 
   
 
-    .portfolio .mobile {
+     section.portfolio .mobile {
         position: relative;
         width: 245px;
         height: 450px;
@@ -1501,7 +1585,7 @@ section.qualification .linkedin .link-prof{
         margin:70px 0px 0px -70px;
     }
     
-    .portfolio .screen {
+     section.portfolio .screen {
         position: absolute;
         top: 20px;
         bottom: 30px;
@@ -1685,7 +1769,7 @@ section.qualification .linkedin .link-prof{
 
 @media (min-width: 766px) and (max-width: 980px){
 
-    .portfolio{
+    section.portfolio{
         min-height: 60vh;
         display: flex;
         justify-content: center;
@@ -1699,7 +1783,7 @@ section.qualification .linkedin .link-prof{
 
   
 
-    .portfolio .mobile {
+    section.portfolio .mobile {
         position: relative;
         width: 245px;
         height: 450px;
@@ -1708,7 +1792,7 @@ section.qualification .linkedin .link-prof{
         margin-left: 75px;
     }
     
-    .portfolio .screen {
+    section.portfolio .screen {
         position: absolute;
         top: 20px;
         bottom: 30px;
@@ -1720,7 +1804,7 @@ section.qualification .linkedin .link-prof{
     
     }
 
-    .portfolio .img-left{
+    section.portfolio .img-left{
     background-image: url("/static/aaa.png");
     width:400px;
     height: 100%;
@@ -1731,7 +1815,7 @@ section.qualification .linkedin .link-prof{
 
     }
 
-     .portfolio .img-right{
+     section.portfolio .img-right{
     background-image: url("/static/aaa.png");
     width:400px;
     height: 100%;
@@ -1908,7 +1992,7 @@ section.qualification .linkedin .link-prof{
 
 @media (max-width:765px){
 
-    .portfolio{
+    section.portfolio{
         min-height: 100vh;
         display: flex;
         justify-content: center;
@@ -1920,7 +2004,7 @@ section.qualification .linkedin .link-prof{
 
   
 
-    .portfolio .mobile {
+    section.portfolio .mobile {
         position: relative;
         width: 245px;
         height: 450px;
@@ -1928,7 +2012,7 @@ section.qualification .linkedin .link-prof{
         border-radius: 20px;
     }
     
-    .portfolio .screen {
+    section.portfolio .screen {
         position: absolute;
         top: 20px;
         bottom: 30px;
@@ -2105,7 +2189,7 @@ section.qualification .linkedin .link-prof{
 
 
 
-.portfolio .label-neo{
+section.portfolio .label-neo{
     width:200px;
     height: 45px;
     background-color: rgb(0, 0, 0);
@@ -2120,12 +2204,12 @@ section.qualification .linkedin .link-prof{
     margin-top: 30px;
   }
   
-  .portfolio .label-neo i{
+  section.portfolio .label-neo i{
     margin-left: 10px;
     color: white;
   }
   
-  .portfolio .label-neo label{
+  section.portfolio .label-neo label{
     padding-top: 8px;
     width: 100%;
     font-size: 15px;
@@ -2137,7 +2221,7 @@ section.qualification .linkedin .link-prof{
     color: rgb(255, 246, 246);
   }
 
-  .portfolio marquee{
+  section.portfolio marquee{
    
     height: 500px;
     width: 400px;
