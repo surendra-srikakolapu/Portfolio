@@ -1754,14 +1754,14 @@ section.qualification .linkedin .link-prof{
     
    
     
-    form input[type="text"],form input[type="email"]{
+    form input[type="text"],form input[type="email"], form input[type="text"]:focus,form input[type="email"]:focus{
         width:80%;
         height:40px;
         margin-left:10%;
         margin-top: 20px;
         border-radius: 15px;
         font-weight: 700;
-        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+        box-shadow: inset 6px 6px 6px #85898d, inset -6px -6px 6px rgb(229, 223, 223);
 
         
     }
