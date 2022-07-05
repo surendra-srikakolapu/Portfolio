@@ -985,13 +985,14 @@ section.qualification .linkedin .link-prof{
     padding:10px;
     font-size: 20px;
     color: white;
-    font-weight: 700;
     width: 91%;
     margin: 1px auto 10px auto;
     border-radius:0px 0px 15px 15px;
     text-decoration: none;
     letter-spacing: 1px;
     word-spacing: 2px;
+    font-family: 'Concert One', cursive;
+
 }
  
 
@@ -1119,7 +1120,7 @@ section.qualification{
     text-align: center;
     color: white;
     font-size: 30px;
-    letter-spacing: 2PX;
+    letter-spacing: 2px;
     box-shadow:  6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
     font-family: 'Potta One', cursive;
 
@@ -1192,13 +1193,14 @@ section.qualification .linkedin .link-prof{
     padding:10px;
     font-size: 20px;
     color: white;
-    font-weight: 700;
     width: 91%;
     margin: 1px auto 10px auto;
     border-radius:0px 0px 15px 15px;
     text-decoration: none;
     letter-spacing: 1px;
     word-spacing: 2px;
+    font-family: 'Concert One', cursive;
+
 }
  
 
