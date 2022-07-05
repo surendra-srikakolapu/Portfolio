@@ -120,7 +120,7 @@ nav .mobile-nav-row ul{
     nav  ul li.active a {
     color: #ffffff;
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
-    font-size: 16px;
+    transform: scale(1.1);
     transition: 0.1s linear;
 
     }
@@ -319,7 +319,7 @@ nav .mobile-nav-row ul{
     nav  ul li.active a {
     color: #ffffff;
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
-    font-size: 20px;
+    transform: scale(1.1);
     transition: 0.1s linear;
     }
          
