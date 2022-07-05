@@ -61,18 +61,18 @@
                 <ul>
                     <div class="row">
                         <div class="col-3">
-                            <li class="home  active"><a href="#home">HOME</a></li>
+                            <li class="home  active"><a id="btn" onclick="touch.play();" href="#home">HOME</a></li>
                         </div>
                      
                         <div class="col-3">
-                            <li class="skills"><a href="#skills">SKILLS</a></li>
+                            <li class="skills"><a id="btn" onclick="touch.play();" href="#skills">SKILLS</a></li>
                         </div>
                         <div class="col-3">
-                            <li class="qualification"><a href="#qualification">STUDY</a></li>
+                            <li class="qualification"><a id="btn" onclick="touch.play();" href="#qualification">STUDY</a></li>
                         </div>
                      
                         <div class="col-3">
-                            <li class="portfolio"><a href="#portfolio">WORK</a></li>
+                            <li class="portfolio"><a id="btn" onclick="touch.play();" href="#portfolio">WORK</a></li>
                         </div>
                       
                       
@@ -751,7 +751,12 @@ window.onscroll = () => {
 
 
 
-
+<script type="text/javascript">
+    const touch = new Audio();
+    touch.volume =0.1;
+    touch.playbackRate=0.2;
+    touch.src = "button-46.mp3";
+</script>
 
   
    
