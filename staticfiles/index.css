@@ -1,0 +1,2374 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Concert+One&family=Bungee+Inline&family=IM+Fell+DW+Pica&family=Potta+One&family=Averia+Serif+Libre:wght@700&display=swap');
+
+.btn-rounded {
+    position: relative;
+    padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    border: 0.1rem solid rgba(255, 255, 255, 0.6);
+    background-color: #fff;
+    display: block;
+}
+
+.btn-rounded span {
+    position: absolute;
+    background-color: #9926f0;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.profile .profile-right .resume-btn label{
+    font-size: 20px;
+    background-color: rgb(40, 35, 35);
+    box-shadow: 1px 1px 7px rgb(72, 67, 67) inset,
+    -1px -1px 7px rgb(34, 31, 31) inset;
+    padding: 5px 20px;
+    font-weight:700;
+    letter-spacing: 2px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+
+
+.navbar-expand-lg{
+    border: none;
+}
+
+
+
+.menu li {
+    padding: 0 0.7rem;
+}
+
+.menu li a {
+    color: #fff;
+    padding: 0 0.7rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.menu li:hover {
+    color: #fff;
+}
+
+
+
+
+@media (min-width:200px) and (max-width:410px){
+
+  
+    .profile {
+        background:rgb(255, 255, 0);
+        min-height: 100vh;
+    }
+    nav.navbar-expand{
+      display: none;
+  }
+  
+
+  nav.mobile-nav{
+    background-color: #342f2d;
+    opacity:0.8;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+nav .mobile-nav-row ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10%;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+  nav .mobile-nav-row ul li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    padding:4px 7px 2px 7px;
+    background-color: white;
+    }
+    
+    nav .mobile-nav .mobile-nav-row ul li.active {
+    border-radius:5px;
+    transition: 0.3s;
+
+    }
+    
+    nav .mobile-nav .mobile-nav-row ul li:hover a {
+      color: #ffffff;
+      }
+
+    nav  ul li.active a {
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
+    transform: scale(1.1);
+    transition: 0.1s linear;
+
+    }
+
+   
+    .profile .profile-left {
+        min-height: 40vh;
+   }
+   .profile .profile-right {
+       min-height: 50vh;
+  }
+
+    .profile .profile-right .name {
+        font-size: 27px;
+        font-weight: 700;
+        width: 80%;
+        background-color: black;
+        border-radius: 20%;
+        padding: 10px;
+        margin: 0 auto;
+        color: aliceblue;
+        top: 10px;
+        position: relative;
+    }
+
+  
+
+    .profile img {
+        position: relative;
+        width: 85%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .rotate-3d {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+      }
+      #flip-card {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: absolute;
+        -o-transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        -o-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+      .do-flip {
+        transform: rotateY(-180deg);
+      }
+      #back-flip, #front-flip {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        font-size: 25px;
+        border: none;
+        font-weight:bolder;
+        top: -60px;
+        
+      }
+      #flip-card .flip-card-front, #flip-card .flip-card-back{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        -o-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        z-index: 2;     
+      }
+     
+      #flip-card .flip-card-back {
+          transform: rotateY(180deg);
+      }
+     
+      .flip-card-back ul{
+        list-style:none;
+        text-align: left;
+      }
+
+      .flip-card-back ul li{
+        font-size: 15px;
+        font-weight: 700;
+        word-spacing: 2px;
+      }
+    
+
+      .profile .profile-right  #flip-card .flip-card-front p , #flip-card .flip-card-back p p.para {
+        font-family: 'Concert One', cursive;
+        word-spacing: 1px;
+        font-size: 20px;
+        font-weight: 500;
+        width: 85%;
+        margin: 0 auto;
+        
+
+    }
+
+    .flip-card-back ul{
+        list-style:none;
+        text-align: left;
+      }
+
+      .flip-card-back ul li{
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+        font-family: 'Concert One', cursive;
+        letter-spacing: 0.6px;
+        margin-top: 10px;
+      }
+
+      .flip-card-back ul li i{
+        background-color: #060608;
+        color: #ffffff;
+        padding: 7px;
+        border-radius: 50%;
+        font-size: 12px;
+        position: relative;
+        top:-4px;
+      }
+
+
+
+
+   
+
+}
+
+@media (min-width: 411px) and (max-width: 765px){
+    .profile {
+        background:rgb(255, 255, 0);
+        min-height: 100vh;
+    }
+
+    nav.navbar-expand{
+        display: none;
+    }
+
+    
+  nav.mobile-nav{
+    background-color: #342f2d;
+    opacity:0.8;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+nav .mobile-nav-row ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10%;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+  nav .mobile-nav-row ul li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    padding:4px 7px 2px 7px;
+    background-color: white;
+    }
+    
+    nav .mobile-nav .mobile-nav-row ul li.active {
+    border-radius:5px;
+    transition: 0.1s;
+
+    }
+    
+    nav .mobile-nav .mobile-nav-row ul li:hover a {
+      color: #ffffff;
+      }
+    nav  ul li.active a {
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
+    transform: scale(1.1);
+    transition: 0.1s linear;
+    }
+         
+          .profile {
+              background:rgb(255, 255, 0);
+              min-height:100vh;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+      
+   
+    .profile .profile-left {
+         min-height: 40vh;
+    }
+    .profile .profile-right {
+        min-height: 50vh;
+   }
+
+
+    .profile .profile-right .name {
+        font-size: 40px;
+        font-weight: 700;
+        width: 85%;
+        background-color: black;
+        border-radius: 20%;
+        padding: 10px;
+        margin: 0 auto;
+        color: aliceblue;
+    }
+
+  
+    
+    .profile img {
+        position: relative;
+        width: 100%;
+        margin-top: -35px;
+    }
+
+
+    .rotate-3d {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+      }
+      #flip-card {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: absolute;
+        -o-transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        -o-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+      .do-flip {
+        transform: rotateY(-180deg);
+      }
+      #back-flip, #front-flip {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        font-size: 25px;
+        border: none;
+        font-weight:bolder;
+        top: -30px;
+        
+      }
+      #flip-card .flip-card-front, #flip-card .flip-card-back{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        -o-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        z-index: 2;     
+      }
+     
+      #flip-card .flip-card-back {
+          transform: rotateY(180deg);
+      }
+     
+      .flip-card-back ul{
+        list-style:none;
+        text-align: left;
+      }
+
+      .flip-card-back ul li{
+        font-size: 15px;
+        font-weight: 700;
+        word-spacing: 2px;
+      }
+    
+
+      .profile .profile-right  #flip-card .flip-card-front p , #flip-card .flip-card-back p p.para {
+        font-family: 'Concert One', cursive;
+        word-spacing: 1px;
+        font-size: 24px;
+        font-weight: 500;
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+
+    .flip-card-back ul{
+        list-style:none;
+        text-align: left;
+      }
+
+      .flip-card-back ul li{
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+        font-family: 'Concert One', cursive;
+        letter-spacing: 0.6px;
+        margin-top: 20px;
+      }
+
+      .flip-card-back ul li i{
+        background-color: #060608;
+        color: #ffffff;
+        padding: 7px;
+        border-radius: 50%;
+        font-size: 12px;
+        position: relative;
+        top:-4px;
+      }
+
+
+
+}
+
+@media (min-width: 766px) and (max-width: 980px) {
+
+      nav .container ul{
+    position: relative;
+    left:12%;
+  }
+
+nav .container ul li {
+display: inline-block;
+text-decoration: none;
+font-size: 14px;
+color: black;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 10px;
+background-color: rgb(0, 0, 0);
+margin: 7px;
+padding:3px 3px;
+  transition: all .05s linear;
+}
+nav .container ul li.active {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
+border-radius:10px;
+transition: 0.3s;
+transform: scale(1.1);
+}
+
+nav .container ul li:hover{
+  transform:scale(1.1);
+}
+
+nav .container ul li:hover a {
+  color: #ffffff;
+  }
+nav .container ul li.active a {
+color: #ffffff;
+}
+
+
+    .profile {
+        background:rgb(255, 255, 0);
+        min-height:100vh;
+        min-height: -webkit-fill-available;
+        padding-bottom: 150px;
+        padding-top: 70px;
+    }
+
+    nav.mobile-nav{
+        display: none;
+    }
+
+    .profile .profile-right {
+        margin-top: 13%;
+    }
+
+
+
+    .profile .profile-right .name {
+        background-color: black;
+        font-size: 50px;
+        font-weight: 700;
+        border-radius: 20%;
+        padding: 10px;
+        color: aliceblue;
+    }
+
+  
+
+    
+    .profile .profile-left img {
+        position: relative;
+        max-width: 400px;
+        right:30%;
+        margin-top: 13%;
+
+    }
+
+
+
+    .rotate-3d {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+      }
+      #flip-card {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: absolute;
+        -o-transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        -o-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+      .do-flip {
+        transform: rotateY(-180deg);
+      }
+      #back-flip, #front-flip {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        font-size: 25px;
+        border: none;
+        font-weight:bolder;
+        right: -60px;
+        
+      }
+      #flip-card .flip-card-front, #flip-card .flip-card-back{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        -o-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        z-index: 2;     
+      }
+     
+      #flip-card .flip-card-back {
+          transform: rotateY(180deg);
+      }
+     
+      .flip-card-back ul{
+        list-style:none;
+        text-align: left;
+      }
+
+      .flip-card-back ul li{
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 15px;
+        color: black;
+        font-family: 'Concert One', cursive;
+        letter-spacing: 0.6px;
+      }
+
+      .flip-card-back ul li i{
+        background-color: #060608;
+        color: #ffffff;
+        padding: 7px;
+        border-radius: 50%;
+        font-size: 15px;
+        position: relative;
+        top:-4px;
+      }
+    
+
+    
+
+      .profile .profile-right  #flip-card .flip-card-front p , #flip-card .flip-card-back p p.para {
+
+        font-size: 26px;
+        font-weight: bold;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-family: 'Concert One', cursive;
+        word-spacing: 5px;
+
+    }
+    
+
+   
+}
+
+
+@media (min-width: 981px){
+
+  nav .container ul{
+    position: relative;
+    left: 3%;
+  }
+
+nav .container ul li {
+display: inline-block;
+text-decoration: none;
+color: black;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 10px;
+background-color: rgb(0, 0, 0);
+margin: 10px 15px 10px 10px;
+padding:3px 3px;
+letter-spacing: 1px;
+  transition: all .05s linear;
+}
+nav .container ul li.active {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);
+border-radius:10px;
+transition: 0.3s;
+transform: scale(1.1);
+}
+
+nav .container ul li:hover{
+  transform:scale(1.1);
+}
+
+nav .container ul li:hover a {
+  color: #ffffff;
+  }
+nav .container ul li.active a {
+color: #ffffff;
+}
+   
+    .profile {
+        background:rgb(255, 255, 0);
+        min-height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav.mobile-nav{
+        display: none;
+    }
+
+    .profile .profile-right {
+        margin-top: 13%;
+    }
+
+
+
+    .profile .profile-right .name {
+        background-color: black;
+        font-size: 80px;
+        font-weight: 700;
+        border-radius: 20%;
+        padding: 10px;
+        color: aliceblue;
+    }
+
+  
+  
+
+   
+    .profile .profile-left img {
+        position: relative;
+        max-width: 500px;
+        right: 50px;
+
+    }
+
+
+
+    .rotate-3d {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+      }
+      #flip-card {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: absolute;
+        -o-transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        -o-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+      .do-flip {
+        transform: rotateY(-180deg);
+      }
+      #back-flip, #front-flip {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        font-size: 25px;
+        border: none;
+        font-weight:bolder;
+        right: -60px;
+        
+      }
+      #flip-card .flip-card-front, #flip-card .flip-card-back{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        -o-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        z-index: 2;     
+      }
+     
+      #flip-card .flip-card-back {
+          transform: rotateY(180deg);
+      }
+     
+      .flip-card-back ul{
+        list-style:none;
+        text-align: left;
+      }
+
+      .flip-card-back ul li{
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 30px;
+        color: black;
+        font-family: 'Concert One', cursive;
+        letter-spacing: 0.6px;
+      }
+
+      .flip-card-back ul li i{
+        background-color: #060608;
+        color: #ffffff;
+        padding: 7px;
+        border-radius: 50%;
+        font-size: 15px;
+        position: relative;
+        top:-4px;
+      }
+    
+
+    
+
+      .profile .profile-right  #flip-card .flip-card-front p , #flip-card .flip-card-back p p.para {
+
+        font-size: 26px;
+        font-weight: bold;
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Concert One', cursive;
+        word-spacing: 5px;
+
+    }
+    
+}
+
+
+
+@media (min-width: 200px) and (max-width: 410px) {
+
+    section.skills{
+        background-color:rgb(57, 61, 66) ;
+       min-height: 100vh;
+       display: flex;
+       justify-content: center;
+        
+    }
+
+    .skills .nav-tabs{
+        margin-top:8%;
+    }
+
+    .skills .nav-tabs .nav-link{
+        outline: none;
+        color: white;
+        font-size: 15px;
+
+    }
+
+  
+
+    .skills .tab-pane .row{
+        margin-top: 5%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80vh;
+    } 
+
+
+    
+.skills .card{
+    width: 140px;
+    height: 160px;
+    margin:5px;
+    border-radius: 15px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px ;
+    
+}
+
+.skills .card .logo {
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 3px rgb(153, 152, 152),
+    -1px -1px 3px rgb(168, 157, 157),1px 1px 15px rgb(39, 37, 37) inset,
+    -1px -1px 15px rgb(34, 31, 31) inset;
+    padding:3px;
+    border: 2px solid rgb(25, 22, 22);
+
+}
+
+.skills .card .logo img{
+    width: 70%;
+}
+
+.skills .card label{
+    font-size: 15px;
+    font-family: 'Potta One', cursive;
+    margin-top: 5%;
+
+}
+
+.skills .card .label-bg{
+    margin-top: 30px;
+    color: rgb(244, 244, 244);
+    width:80%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(57, 61, 66);
+    box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
+    -1px -1px 7px rgb(34, 31, 31) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+section.qualification{
+    min-height:100vh;
+    background-color:rgb(57, 61, 66) ;
+    margin-top: -2px;
+   
+  }
+
+  section.qualification .card{
+    position: relative;
+    border-radius:10px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    width:90%;
+    height: auto;
+    margin: 50px auto;
+
+  }
+
+  section.qualification .card .card-header{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2PX;
+    box-shadow:  6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    font-family: 'Potta One', cursive;
+
+  }
+
+  section.qualification .card .card-body label.degree{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left:7%;
+    font-family: 'Concert One', cursive;     
+  }
+
+  section.qualification .card .card-body label.year{
+    text-align: center;
+    background-color: red;
+    padding: 0px 5px 0px 5px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left:15%;
+    border-radius: 3px;
+
+  }
+
+  section.qualification .card .card-body label.cgpa{
+    text-align: center;
+    background-color: rgb(248, 254, 255);
+    padding: 0px 5px 0px 5px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: black;
+    border-radius: 3px;
+  }
+
+
+  section.qualification .linkedin .badges{
+    width: 91%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 15px 15px 0px 0px;;
+    overflow: hidden;
+
+  }
+
+
+  section.qualification .linkedin .badges img{
+   width: 100%;   
+   border-radius: 15px 15px 0px 0px;
+  }
+
+  .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+section.qualification .linkedin .link-prof{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    width: 91%;
+    margin: 1px auto 10px auto;
+    border-radius:0px 0px 15px 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Concert One', cursive;
+
+}
+ 
+
+
+}
+
+
+@media (min-width: 411px) and (max-width: 765px) {
+
+    section.skills{
+        background-color:rgb(57, 61, 66) ;
+       min-height: 100vh;
+       display: flex;
+       justify-content: center;
+       
+    }
+
+    section.skills .tab-pane .row{
+        margin-top: 5%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80vh;
+    } 
+
+     section.skills .heading{
+        display: none;
+    }
+
+     section.skills .nav-tabs{
+        margin-top: 10%;
+    }
+
+     section.skills .nav-tabs .nav-link{
+        outline: none;
+        color: white;
+
+    }
+
+    section.skills .nav-tabs .nav-link.active{
+      color:black;
+    }
+
+
+
+
+    
+    section.skills .card{
+    width: 160px;
+    height: 190px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    display:flex;
+    align-items: center;
+    padding-top:20px ;
+    
+}
+
+section.skills .card .logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 3px rgb(153, 152, 152),
+    -1px -1px 3px rgb(168, 157, 157),1px 1px 15px rgb(39, 37, 37) inset,
+    -1px -1px 15px rgb(34, 31, 31) inset;
+    padding: 5px;
+    border: 3px solid rgb(25, 22, 22);
+
+}
+
+section.skills .card .logo img{
+    width: 70%;
+}
+
+section.skills .card label{
+    font-size: 18px;
+    font-family: 'Potta One', cursive;
+    margin-top: 5%;
+
+}
+
+section.skills .card .label-bg{
+    margin-top: 30px;
+    color: rgb(244, 244, 244);
+    width:86%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(57, 61, 66);
+    box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
+    -1px -1px 7px rgb(34, 31, 31) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+section.qualification{
+    min-height:100vh;
+    background-color:rgb(57, 61, 66) ;
+    margin-top: -2px;
+   
+  }
+
+  section.qualification .card{
+    position: relative;
+    border-radius:10px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    width:90%;
+    height: auto;
+    margin: 30px auto;
+
+  }
+
+  section.qualification .card .card-header{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    box-shadow:  6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    font-family: 'Potta One', cursive;
+
+  }
+
+  section.qualification .card .card-body label.degree{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left:7%;
+    font-family: 'Concert One', cursive;    
+
+    
+  }
+
+  section.qualification .card .card-body label.year{
+    text-align: center;
+    background-color: red;
+    padding: 0px 5px 0px 5px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left:15%;
+    border-radius: 3px;
+
+  }
+
+  section.qualification .card .card-body label.cgpa{
+    text-align: center;
+    background-color: rgb(248, 254, 255);
+    padding: 0px 5px 0px 5px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: black;
+    border-radius: 3px;
+  }
+
+
+
+
+    
+
+  section.qualification .linkedin .badges{
+    width: 91%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 15px 15px 0px 0px;;
+    overflow: hidden;
+
+  }
+
+
+  section.qualification .linkedin .badges img{
+   width: 100%;   
+   border-radius: 15px 15px 0px 0px;
+  }
+
+  .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+section.qualification .linkedin .link-prof{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    width: 91%;
+    margin: 1px auto 10px auto;
+    border-radius:0px 0px 15px 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Concert One', cursive;
+
+}
+ 
+
+
+
+}
+
+@media (min-width: 766px) and (max-width: 980px) {
+    section.skills{
+        background-color:rgb(57, 61, 66) ;
+        min-height:100vh;
+        min-height: -webkit-fill-available;
+        padding-bottom: 200px;
+       display: flex;
+       justify-content: center;
+       align-items: center;    
+    }
+
+   
+    section.skills .nav-tabs{
+        margin-top: 20%;
+    }
+
+    section.skills .nav-link{
+        font-size: 23px;
+        color: white;
+    }
+
+    section.skills .tab-pane{
+        margin-top: 7%;
+    }
+   
+  section.skills .card{
+    width: 160px;
+    height: 200px;
+    margin:20px;
+    border-radius: 15px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    display:flex;
+    align-items: center;
+    padding-top:20px;
+    
+}
+
+  section.skills .card .logo {
+    width: 80px;
+    height: 80px;
+    border: 4px solid rgb(25, 22, 22);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 7px rgb(153, 152, 152),
+    -1px -1px 7px rgb(168, 157, 157),1px 1px 15px rgb(39, 37, 37) inset,
+    -1px -1px 15px rgb(34, 31, 31) inset;
+    padding: 5px;
+}
+
+  section.skills .card .logo img{
+    width: 70%;
+}
+
+  section.skills .card label{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Potta One', cursive;
+    margin-top: 8px;
+
+}
+
+  section.skills .card .label-bg{
+    margin-top: 40px;
+    color: rgb(244, 244, 244);
+    width:80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(57, 61, 66);
+    box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
+    -1px -1px 7px rgb(34, 31, 31) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+section.qualification{
+    min-height:100vh;
+    background-color:rgb(57, 61, 66) ;
+    min-height: -webkit-fill-available;
+   
+  }
+
+  section.qualification .card{
+    position: relative;
+    border-radius:10px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    width:100%;
+    height: 400px;
+    margin: 120px auto;
+
+  }
+
+  section.qualification .card .card-header{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    box-shadow:  6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    font-family: 'Potta One', cursive;
+
+  }
+
+  section.qualification .card .card-body label.degree{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Concert One', cursive;    
+
+  }
+
+  section.qualification .card .card-body label.year{
+    text-align: center;
+    background-color: red;
+    padding: 0px 5px 0px 5px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+
+  section.qualification .card .card-body label.cgpa{
+    text-align: center;
+    background-color: rgb(248, 254, 255);
+    padding: 0px 5px 0px 5px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: black;
+    border-radius: 3px;
+  }
+
+
+  section.qualification .linkedin .badges{
+    width: 352px;
+    position: relative;
+    margin-top:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 15px 15px 0px 0px;;
+    overflow: hidden;
+    
+  }
+
+
+  section.qualification .linkedin .badges img{
+   width: 100%;
+   border-radius:15px 15px 0px 0px;   
+
+  }
+
+  .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+section.qualification .linkedin .link-prof{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    width: 352px;
+    border-radius:0px 0px 15px 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Concert One', cursive;
+
+}
+ 
+section.qualification .linkedin .link-prof:hover{
+  background-color: white;
+  color:black;
+  border-top: 2px solid black;
+
+}
+
+
+ 
+ 
+}
+
+
+@media (min-width: 981px){
+    .nav-tabs .nav-link{
+        color:white;
+        font-size: 20px;
+    }
+
+    .nav-tabs .nav-link:hover{
+        color:white;
+        border: 0;
+       
+    }
+
+    section.skills{
+        background-color:rgb(57, 61, 66) ;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.skills .skills-tab{
+        margin-top: 10%;
+        color: white;
+    }
+
+    section.skills .tab-pane .row{
+        margin-top: 8%;
+    } 
+
+    section.skills .heading{
+        margin-top: 7%;
+    }
+
+   
+    section.skills .card{
+        width: 160px;
+        height: 210px;
+        margin: 10px;
+        border-radius: 15px;
+        background-color: rgb(57, 61, 66) ;
+        box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+        display:flex;
+        align-items: center;
+        padding-top:20px ;
+        
+    }
+    
+    section.skills .card .logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 4px solid rgb(25, 22, 22);
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 1px 5px rgb(153, 152, 152),
+        -1px -1px 5px rgb(168, 157, 157),1px 1px 12px rgb(39, 37, 37) inset,
+        -1px -1px 12px rgb(34, 31, 31) inset;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    
+    section.skills .card .logo img{
+        width: 70%;
+    }
+    
+     section.skills .card label{
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Potta One', cursive;
+        margin-top: 5%;
+    }
+    
+     section.skills .card .label-bg{
+        margin-top: 40px;
+        color: rgb(244, 244, 244);
+        width:80%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(57, 61, 66);
+        box-shadow: 1px 1px 7px rgb(39, 37, 37) inset,
+        -1px -1px 7px rgb(34, 31, 31) inset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    
+  section.qualification{
+    min-height:100vh;
+    background-color:rgb(57, 61, 66) ;
+   
+  }
+
+  section.qualification .card{
+    position: relative;
+    border-radius:10px;
+    background-color: rgb(57, 61, 66) ;
+    box-shadow: 6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    width:50%;
+    height: auto;
+    margin: 120px auto;
+
+  }
+
+  section.qualification .card .card-header{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    box-shadow:  6px 6px 20px rgb(27, 24, 24),-6px -6px 20px rgb(27, 24, 24);
+    font-family: 'Potta One', cursive;
+
+  }
+
+  section.qualification .card .card-body label.degree{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Concert One', cursive;    
+
+  }
+
+  section.qualification .card .card-body label.year{
+    text-align: center;
+    background-color: red;
+    padding: 0px 5px 0px 5px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+
+  section.qualification .card .card-body label.cgpa{
+    text-align: center;
+    background-color: rgb(248, 254, 255);
+    padding: 0px 5px 0px 5px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: black;
+    border-radius: 3px;
+  }
+
+
+  
+
+  section.qualification .linkedin .badges{
+    width: 352px;
+    position: relative;
+    margin-top:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 15px 15px 0px 0px;;
+    overflow: hidden;
+    
+  }
+
+
+  section.qualification .linkedin .badges img{
+   width: 100%;
+   border-radius:15px 15px 0px 0px;   
+
+  }
+
+  .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+section.qualification .linkedin .link-prof{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    width: 352px;
+    border-radius:0px 0px 15px 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Concert One', cursive;
+
+  }
+   
+  section.qualification .linkedin .link-prof:hover{
+    background-color: white;
+    color:black;
+    border-top: 2px solid black;
+  
+  }
+ 
+
+ 
+
+}
+
+
+
+
+
+
+@media (min-width:981px){
+
+     section.portfolio{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(57, 61, 66) ;
+    }
+
+  
+
+     section.portfolio .mobile {
+        position: relative;
+        width: 245px;
+        height: 450px;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        margin:70px 0px 0px -70px;
+    }
+    
+     section.portfolio .screen {
+        position: absolute;
+        top: 20px;
+        bottom: 30px;
+        left: 6px;
+        right: 6px;
+        background-color: rgb(199, 187, 187);
+        border-radius: 5px;
+        overflow: hidden;
+    
+    }
+
+    
+   
+
+    
+    .modal .modal-content{
+        background-color: transparent;
+        width: 80%;
+        margin-left: 15%;
+        margin-top: -5%;
+        border: 0;
+        
+    }
+
+    .modal-body .contact-note{
+        width:100%;
+        height:190px;
+        border-radius:20px 20px 0px 0px;
+        background-color:white;
+        box-shadow:1px 2px 17px 5px rgb(226, 217, 217) inset,
+        1px 2px 9px 1px rgb(127, 130, 127) inset;
+    }
+
+    .modal-body .contact-note h4{
+        width: 100%;
+        margin-left: 10%;
+        margin-top:10%;
+        line-height: 33px;
+    }
+    
+    .modal-body .contact-note button{
+        width: 100%;
+        position: relative;
+        margin-top: 20px;
+        margin-left: -30px;
+        font-weight: 700;
+        border: 0;
+    }
+
+  
+    
+    
+    .modal-body .contact-form{
+        position: relative;
+        height: 390px;
+        width:100%;
+        background-color:rgb(104,96,155);
+        padding-top: 25px;
+        top: -50px;
+        border-radius:40px 40px 0px 0px;
+        box-shadow:-1px -2px 10px 3px rgb(35, 35, 35),
+        1px 0px 9px -1px rgb(37, 40, 37);
+
+    }
+
+    .modal-body .contact-link{
+        position: relative;
+        height: 80px;
+        width:100%;
+        border-radius:30px 30px 20px 20px;
+        top: -85px;
+        background-color: rgb(255, 255, 255);
+        box-shadow:0px 2px 0px 1px rgb(35, 35, 35),
+        0px -5px 20px -1px rgb(37, 40, 37);
+    }
+
+    .modal-body .contact-link a{
+        background-color:rgb(104,96,155);
+        border: 2px solid black;
+        padding: 5px 20px 5px 20px;
+        top:30px;
+        position: relative;
+        color: rgb(255, 255, 255);
+        border-radius:10px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .modal-body .contact-link a.linkedin{
+        
+        position: relative;
+        margin-left: 33px;
+        text-decoration: none;
+        
+    }
+
+    .modal-body .contact-link a i.fa-linkedin{
+        
+        position: relative;
+        right: 10px;
+        text-decoration: none;
+        
+    }
+    .modal-body .contact-link a i.fa-whatsapp{
+        
+        position: relative;
+        right: 10px;
+        text-decoration: none;
+        
+    }
+
+    .modal-body .contact-link a.git{
+        
+        position: relative;
+        margin-left: 25px;
+        text-decoration: none;
+        
+    }
+    
+   
+    
+    form input[type="text"],form input[type="email"], form input[type="text"]:focus,form input[type="email"]:focus{
+        width:80%;
+        height:40px;
+        margin-left:10%;
+        margin-top: 20px;
+        border-radius: 15px;
+        font-weight: 700;
+        padding-left:25px;
+        box-shadow: inset 6px 6px 6px #919498, inset -6px -6px 6px rgb(229, 223, 223);
+
+        
+    }
+    
+    form textarea,form textarea:focus{
+        width:80%;
+        height: 80px;
+        margin-left:10%;
+        margin-top: 5px;
+        border-radius: 20px;
+        padding:10px;
+        resize: none;
+        outline: none;
+        font-weight: 700;
+        box-shadow: inset 6px 6px 6px #85898d, inset -6px -6px 6px rgb(229, 223, 223);
+
+    
+    }
+    
+    form button{
+        width:78%;
+        margin-left:11%;
+        border-radius: 15px;
+        padding: 5px;
+        font-size:20px;
+        font-weight: 700;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+        border:none;
+
+
+    }
+    
+    .input::placeholder{
+        color: black;
+        font-size:15px;
+        font-weight: 700;
+        left: 10px;
+        position: relative;
+    }
+    
+    textarea::placeholder{
+        color: black;
+        font-size:15px;
+        font-weight: 700;
+        padding-left: 12px;
+        position: relative;
+        opacity:0.7;
+       
+    }
+    
+}
+
+
+@media (min-width: 766px) and (max-width: 980px){
+
+    section.portfolio{
+        min-height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(57, 61, 66) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+  
+
+    section.portfolio .mobile {
+        position: relative;
+        width: 245px;
+        height: 450px;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        margin-left: 75px;
+    }
+    
+    section.portfolio .screen {
+        position: absolute;
+        top: 20px;
+        bottom: 30px;
+        left: 6px;
+        right: 6px;
+        background-color: rgb(199, 187, 187);
+        border-radius: 5px;
+        overflow: hidden;
+    
+    }
+
+    section.portfolio .img-left{
+    background-image: url("/static/aaa.png");
+    width:400px;
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(180deg);
+
+    }
+
+     section.portfolio .img-right{
+    background-image: url("/static/aaa.png");
+    width:400px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+   
+
+    
+    .modal .modal-content{
+        background-color: transparent;     
+        width:50%;
+        margin-left: 25%;   
+    }
+
+    .modal-body .contact-note{
+        width:100%;
+        height:180px;
+        border-radius:40px 40px 0px 0px;
+        background-color:white;
+        box-shadow:1px 2px 17px 5px rgb(226, 217, 217) inset,
+        1px 2px 9px 1px rgb(127, 130, 127) inset;
+    }
+
+    .modal-body .contact-note h4{
+        width: 100%;
+        margin-left: 10%;
+        margin-top:10%;
+        line-height: 33px;
+    }
+    
+    .modal-body .contact-note button{
+        width: 100%;
+        position: relative;
+        margin-top: 20px;
+        margin-left: -30px;
+        font-weight: 700;
+    }
+    
+
+    .modal-body .contact-form{
+        position: relative;
+        height:460px;
+        width:100%;
+        background-color:rgb(104,96,155);
+        padding-top: 50px;
+        top: -38px;
+        border-radius:40px 40px 0px 0px;
+        box-shadow:-1px -2px 10px 3px rgb(35, 35, 35),
+        1px 0px 9px -1px rgb(37, 40, 37);
+
+    }
+
+    .modal-body .contact-link{
+        position: relative;
+        height: 100px;
+        width:100%;
+        border-radius:30px 30px 30px 30px;
+        top: -85px;
+        background-color: rgb(255, 255, 255);
+        box-shadow:0px 2px 0px 1px rgb(35, 35, 35),
+        0px -5px 20px -1px rgb(37, 40, 37);
+    }
+
+
+    .modal-body .contact-link a{
+        background-color:rgb(104,96,155);
+        border: 2px solid black;
+        padding: 5px 20px 5px 20px;
+        top:30px;
+        position: relative;
+        color: rgb(255, 255, 255);
+        border-radius:10px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .modal-body .contact-link a.linkedin{
+        
+        position: relative;
+        margin-left: 33px;
+        text-decoration: none;
+        
+    }
+
+    .modal-body .contact-link a i.fa-linkedin{
+        
+        position: relative;
+        right: 10px;
+        text-decoration: none;
+        
+    }
+    .modal-body .contact-link a i.fa-whatsapp{
+        
+        position: relative;
+        right: 10px;
+        text-decoration: none;
+        
+    }
+
+    .modal-body .contact-link a.git{
+        
+        position: relative;
+        margin-left: 25px;
+        text-decoration: none;
+        
+    }
+    
+    
+    
+    form input[type="text"],form input[type="email"]{
+        width:80%;
+        height:50px;
+        margin-left:10%;
+        margin-top: 10px;
+        border-radius: 20px;
+        font-weight: 700;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+
+        
+    }
+    
+    form textarea{
+        width:80%;
+        height: 100px;
+        margin-left:10%;
+        margin-top: 5px;
+        border-radius: 20px;
+        border: 2px solid black;
+        padding:10px;
+        font-weight: 700;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+
+    
+    }
+    
+    form button{
+        width:78%;
+        margin-left:11%;
+        margin-top: 5px;
+        border-radius: 20px;
+        padding: 5px;
+        font-size:20px;
+        font-weight: 700;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+        border: none;
+
+    }
+    
+    .input::placeholder{
+        color: black;
+        font-size:15px;
+        font-weight: 700;
+        left: 10px;
+        position: relative;
+    }
+    
+    textarea::placeholder{
+        color: black;
+        font-size:15px;
+        font-weight: 700;
+        padding-left: 12px;
+        position: relative;
+        opacity:0.7;
+    }
+
+    
+
+}
+
+@media (max-width:765px){
+
+    section.portfolio{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(57, 61, 66) ;
+        margin-top: -2px;
+
+    }
+
+  
+
+    section.portfolio .mobile {
+        position: relative;
+        width: 245px;
+        height: 450px;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+    }
+    
+    section.portfolio .screen {
+        position: absolute;
+        top: 20px;
+        bottom: 30px;
+        left: 6px;
+        right: 6px;
+        background-color: rgb(199, 187, 187);
+        border-radius: 5px;
+        overflow: hidden;
+    
+    }
+
+   
+
+
+    .modal .modal-content{
+        background-color:transparent;        
+    }
+
+    .modal-body .contact-note{
+        width:100%;
+        height:200px;
+        border-radius:40px 40px 0px 0px;
+        background-color:white;
+        box-shadow:1px 2px 17px 5px rgb(226, 217, 217) inset,
+        1px 2px 9px 1px rgb(127, 130, 127) inset;
+    }
+
+    .modal-body .contact-note h4{
+        width: 100%;
+        margin-left: 10%;
+        margin-top:12%;
+        line-height: 33px;
+        font-family: 'Averia Serif Libre', cursive;
+        font-size:25px;
+        color:rgb(104,96,155);
+    }
+    
+    .modal-body .contact-note button{
+        width: 100%;
+        position: relative;
+        margin-top: 20px;
+        margin-left: -30px;
+        font-weight: 700;
+    }
+    
+
+    .modal-body .contact-form{
+        position: relative;
+        height:460px;
+        width:100%;
+        background-color:rgb(104,96,155);
+        padding-top: 50px;
+        top: -38px;
+        border-radius:40px 40px 0px 0px;
+        box-shadow:-1px -2px 10px 3px rgb(35, 35, 35),
+        1px 0px 9px -1px rgb(37, 40, 37);
+
+    }
+
+    .modal-body .contact-link{
+        position: relative;
+        height: 80px;
+        width:100%;
+        border-radius:30px 30px 30px 30px;
+        top: -85px;
+        background-color: rgb(255, 255, 255);
+        box-shadow:0px 2px 0px 1px rgb(35, 35, 35),
+        0px -5px 20px -1px rgb(37, 40, 37);
+    }
+    
+
+    .modal-body .contact-link a{
+        background-color:rgb(104,96,155);
+        border: 2px solid black;
+        padding: 5px 20px 5px 20px;
+        top:30px;
+        position: relative;
+        color: rgb(255, 255, 255);
+        border-radius:10px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .modal-body .contact-link a.linkedin{
+        
+        position: relative;
+        margin-left: 33px;
+        text-decoration: none;
+        
+    }
+
+    .modal-body .contact-link a i.fa-linkedin{
+        
+        position: relative;
+        right: 10px;
+        text-decoration: none;
+        
+    }
+    .modal-body .contact-link a i.fa-whatsapp{
+        
+        position: relative;
+        right: 10px;
+        text-decoration: none;
+        
+    }
+
+    .modal-body .contact-link a.git{
+        
+        position: relative;
+        margin-left: 25px;
+        text-decoration: none;
+        
+    }
+    
+    
+    form input[type="text"],form input[type="email"]{
+        width:80%;
+        height:50px;
+        margin-left:10%;
+        margin-top: 10px;
+        border-radius: 15px;
+        font-weight: 700;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+
+        
+    }
+    
+    form textarea{
+        width:80%;
+        height: 100px;
+        margin-left:10%;
+        margin-top: 5px;
+        border-radius: 20px;
+        padding:10px;
+        font-weight: 700;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+
+    
+    }
+    
+    form button{
+        width:78%;
+        margin-left:11%;
+        margin-top: 5px;
+        border-radius: 20px;
+        padding: 5px;
+        font-size:20px;
+        font-weight: 700;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+        border: none;
+
+    }
+    
+    .input::placeholder{
+        color: black;
+        font-size:15px;
+        font-weight: 700;
+        left: 10px;
+        position: relative;
+        opacity:0.7;
+    }
+    
+    textarea::placeholder{
+        color: black;
+        font-size:15px;
+        font-weight: 700;
+        padding-left: 12px;
+        position: relative;
+        opacity:0.7;
+    }
+    
+}
+
+
+
+
+section.portfolio .label-neo{
+    width:200px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px  rgb(255, 255, 255) ,
+    -3px -3px 8px rgb(0, 0, 0),
+     0px 0px 2px  rgb(0, 0, 0) inset,
+    -0px -0px 2px rgb(0, 0, 0) inset;
+    margin-top: 30px;
+  }
+  
+  section.portfolio .label-neo i{
+    margin-left: 10px;
+    color: white;
+  }
+  
+  section.portfolio .label-neo label{
+    padding-top: 8px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 246, 246);
+  }
+
+  section.portfolio marquee{
+   
+    height: 500px;
+    width: 400px;
+    left:20px;
+    padding:20px;
+    width: calc(180px * 20);
+    display: flex;
+    animation: scroll 2s linear infinite;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+
+
+  .marquee-inner.to-left{
+    animation: marqueeTop 20s linear infinite;
+  }
+  .marquee-inner.to-right{
+    animation: marqueeBottom smooth 20s linear infinite;
+  }
+  
+  @keyframes marqueeTop{
+    0% {
+      top: 0;
+    }
+    100% {
+      top: -100%;
+    }
+  }
+  @keyframes marqueeBottom{
+    0% { 
+      top: -100%; 
+    }
+    100% {
+     top: 0; 
+    }
+  }
+
+
+
+
+
+
+
+  .button {
+    position: relative;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+  }
+  
+  .button:active {
+  }
+  
+  .button__text {
+    color: #ffffff;
+    transition: all 0.2s;
+    font-size: 30px;
+  }
+  
+  .button--loading .button__text {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+ 
+
+  .button--loading::after {
+    content: "";
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: button-loading-spinner 1s ease infinite;
+  }
+  
+  @keyframes button-loading-spinner {
+    from {
+      transform: rotate(0turn);
+    }
+  
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+
+
+
+  
