@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Concert+One&family=Bungee+Inline&family=IM+Fell+DW+Pica&family=Potta+One&family=Averia+Serif+Libre:wght@700&display=swap');
 
+
+section.animations{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  background-color:rgb(57, 61, 66) ;
+}
+
+section.animations .row{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.fa-centos ,.fa-fan ,.fa-hurricane {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(131,58,180,1)), to(rgba(253,29,29,1)));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fa-centos.spin-3{
+  font-size: 200px;
+}
+
+
+.fa-fan.spin-2{
+  font-size: 130px;
+}
+
+.fa-hurricane.spin-1{
+  font-size: 80px;
+}
+
+
+
+
 .btn-rounded {
     position: relative;
     padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
@@ -892,6 +931,45 @@ color: #ffffff;
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+section.animations{
+  width: 100%;
+  height: 50px;
+  background-color:rgb(57, 61, 66) ;
+  padding-bottom: 50px;
+}
+
+
+
+.fa-centos.spin-3{
+  font-size: 100px;
+  margin: 20px;
+  
+}
+
+
+.fa-fan.spin-2{
+  font-size: 70px;
+  margin: auto 30px;
+}
+
+.fa-fan.spin-2.spin-left{
+  margin-left:-40px;
+}
+
+.fa-hurricane.spin-1{
+  display: none;
+}
+
+
+
+
+
+
+
     
 
 section.qualification{
@@ -1093,6 +1171,43 @@ section.skills .card .label-bg{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+section.animations{
+  width: 100%;
+  height: 50px;
+  background-color:rgb(57, 61, 66) ;
+  padding-bottom: 50px;
+}
+
+
+
+.fa-centos.spin-3{
+  font-size: 100px;
+  margin: 20px;
+  
+}
+
+
+.fa-fan.spin-2{
+  font-size: 70px;
+  margin: auto 30px;
+}
+
+.fa-fan.spin-2.spin-left{
+  margin-left:-40px;
+}
+
+.fa-hurricane.spin-1{
+  display: none;
+}
+
+
+
+
 
 
 
