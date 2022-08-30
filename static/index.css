@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Concert+One&family=Bungee+Inline&family=IM+Fell+DW+Pica&family=Potta+One&family=Averia+Serif+Libre:wght@700&display=swap');
 
 
+::-webkit-scrollbar {
+  width: 7px;
+  height: 15px;
+  }
+  ::-webkit-scrollbar-track-piece  {
+  background-color: #2b2e32;
+  }
+  ::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  background-color: #d7ce1c;
+  }
+
+
 section.animations{
   width: 100%;
   height: 200px;
@@ -173,16 +186,18 @@ nav .mobile-nav-row ul{
   }
 
     .profile .profile-right .name {
-        font-size: 27px;
-        font-weight: 700;
-        width: 80%;
+        font-size: 31px;
         background-color: black;
         border-radius: 20%;
         padding: 10px;
-        margin: 0 auto;
-        color: aliceblue;
-        top: 10px;
-        position: relative;
+       width:85%;
+       margin: 20px auto 0px;
+      -webkit-text-stroke-width: 1.5px;
+      -webkit-text-stroke-color: #45413b;
+      -webkit-text-fill-color: #f9f9f9;
+      font-family: Arbutus;
+      text-align: center;
+
     }
 
   
@@ -215,6 +230,7 @@ nav .mobile-nav-row ul{
         -webkit-transform-style: preserve-3d;
         -ms-transform-style: preserve-3d;
         transform-style: preserve-3d;
+        -moz-backface-visibility: hidden;
       }
       .do-flip {
         transform: rotateY(-180deg);
@@ -558,12 +574,14 @@ color: #ffffff;
 
 
     .profile .profile-right .name {
-        background-color: black;
-        font-size: 50px;
-        font-weight: 700;
-        border-radius: 20%;
-        padding: 10px;
-        color: aliceblue;
+      font-size: 40px;
+      -webkit-text-stroke-width: 1.5px;
+      -webkit-text-stroke-color: #FF9900;
+      -webkit-text-fill-color: #000000;
+      font-family: Arbutus;
+      text-shadow: 3px 3px 6px #BFBFBF;
+      text-align: center;
+
     }
 
   
@@ -730,12 +748,14 @@ color: #ffffff;
 
 
     .profile .profile-right .name {
-        background-color: black;
-        font-size: 80px;
-        font-weight: 700;
-        border-radius: 20%;
-        padding: 10px;
-        color: aliceblue;
+      font-size: 75px;
+      -webkit-text-stroke-width: 1.5px;
+      -webkit-text-stroke-color: #FF9900;
+      -webkit-text-fill-color: #000000;
+      font-family: Arbutus;
+      text-shadow: 3px 3px 6px #BFBFBF;
+      text-align: center;
+
     }
 
   
